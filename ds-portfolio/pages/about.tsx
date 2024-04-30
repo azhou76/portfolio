@@ -1,8 +1,8 @@
 import Image from "next/image";
-import Navbar from "../navbar";
-import Hero from "../hero";
+import Navbar from "../components/navbar";
+import Hero from "../components/hero";
 
-export default function Route() {
+export default function About() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <Navbar></Navbar>
