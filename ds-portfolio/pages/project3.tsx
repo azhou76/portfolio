@@ -35,10 +35,10 @@ export default function Project3() {
           <h2 className="font-semibold text-3xl font-serif">Context</h2>
           <Image
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={360}
-            height={74}
+            src="/rapsodo1.png"
+            alt="Rapsodo PRO 3.0"
+            width={600}
+            height={300}
             priority
           />
           <p className="font-sans text-gray-600">
