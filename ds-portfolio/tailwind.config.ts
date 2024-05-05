@@ -16,6 +16,7 @@ const config: Config = {
       fontFamily: {
         serif: ['"Source Serif Pro"', "serif"],
         sans: ['"Assistant"', "sans-serif"],
+        monospace: ["Inconsolata", "monospace"],
       },
     },
   },

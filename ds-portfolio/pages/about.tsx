@@ -5,7 +5,7 @@ import Footer from "@/components/footer";
 
 export default function About() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-10 m-0">
+    <main className="flex min-h-screen flex-col items-center justify-center p-10 m-0 bg-white">
       <Navbar></Navbar>
       <div className="flex flex-row items-center space-x-40">
         <div className="space-y-10">
@@ -44,7 +44,7 @@ export default function About() {
           priority
         />
       </div>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </main>
   );
 }

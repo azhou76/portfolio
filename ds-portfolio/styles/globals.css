@@ -76,3 +76,7 @@ body {
 .slide-in-bot {
   animation: slideInFromBot 0.8s ease forwards;
 }
+
+html {
+  scroll-behavior: smooth;
+}
