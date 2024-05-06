@@ -7,9 +7,9 @@ export default function Work() {
     // <main className="flex min-h-screen flex-col space-y-40 m-0">
     <div
       id="work"
-      className="flex min-h-screen flex-row flex-wrap justify-center items-center p-10 mb-4 h-screen"
+      className="flex min-h-screen flex-col justify-center items-center space-y-10 p-10 pt-16 mb-4 h-screen"
     >
-      <h1 className="text-left text-black text-5xl mt-16 mb-4">WORK</h1>
+      <h1 className="text-white text-5xl mt-16 mb-4">WORK</h1>
       {/* Rounded corners on the skill boxes within each project */}
       {/* Different font for the project titles, not serif */}
       {/* Shorten text or break it up to being before or after the picture */}
@@ -17,19 +17,21 @@ export default function Work() {
       {/* Import Figma interactive photo into project descs and have pictures of websites able to click-through */}
       {/*  */}
       {/* <Navbar></Navbar> */}
-      <div className="flex items-center space-x-5">
+      <div className="flex flex-row items-center space-x-5">
         <a
           href="./project1"
           className="group rounded-lg border border-black px-5 py-4 bg-green-200 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 hover:-translate-y-2"
         >
-          <Image
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert m-8 rounded-lg"
-            src="/restaurant1.png"
-            alt="Next.js Logo"
-            width={300}
-            height={37}
-            priority
-          />
+          <div className="flex flex-col items-center">
+            <Image
+              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert rounded-lg"
+              src="/restaurantlogo.png"
+              alt="Next.js Logo"
+              width={250}
+              height={47}
+              priority
+            />
+          </div>
           <h2 className="mb-3 text-2xl font-semibold">Restaurant Aggregator</h2>
           <p className="mb-3 max-w-[33ch] text-sm opacity-80">
             React.js, Case Study
@@ -45,14 +47,16 @@ export default function Work() {
           href="./project2"
           className="group rounded-lg border border-black px-5 py-4 bg-purple-200 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 hover:-translate-y-2"
         >
-          <Image
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert m-8 rounded-lg"
-            src="/warp1.png"
-            alt="Warp Community Figma"
-            width={275}
-            height={37}
-            priority
-          />
+          <div className="flex flex-col items-center">
+            <Image
+              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert rounded-lg"
+              src="/terminal.png"
+              alt="Warp Community Figma"
+              width={250}
+              height={47}
+              priority
+            />
+          </div>
           <h2 className="mb-3 text-2xl font-semibold">Warp Community</h2>
           <p className="mb-3 max-w-[33ch] text-sm opacity-80">
             UI/UX, Case Study
@@ -68,14 +72,16 @@ export default function Work() {
           href="./project3"
           className="group rounded-lg border border-black px-5 py-4 bg-red-200 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 hover:-translate-y-2"
         >
-          <Image
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert m-8 rounded-lg"
-            src="/rapsodo1.png"
-            alt="Next.js Logo"
-            width={300}
-            height={37}
-            priority
-          />
+          <div className="flex flex-col items-center">
+            <Image
+              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert rounded-lg"
+              src="/mlb.png"
+              alt="Next.js Logo"
+              width={230}
+              height={47}
+              priority
+            />
+          </div>
           <h2 className="mb-3 text-2xl font-semibold">Rapsodo PRO 3.0</h2>
           <p className="mb-3 max-w-[33ch] text-sm opacity-80">
             Python, MongoDB, DataViz, Internship
