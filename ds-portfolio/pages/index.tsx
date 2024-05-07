@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Navbar from "../components/navbar";
 import Hero from "../components/hero";
-import Footer from "@/components/footer";
 import Work from "@/components/work";
 import { useEffect } from "react";
 

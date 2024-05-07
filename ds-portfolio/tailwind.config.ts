@@ -14,8 +14,8 @@ const config: Config = {
         //   "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       fontFamily: {
-        serif: ['"Source Serif Pro"', "serif"],
-        sans: ['"Assistant"', "sans-serif"],
+        heading: ["Montserrat", "sans-serif"],
+        sans: ["Lato", "sans-serif"],
         monospace: ["Inconsolata", "monospace"],
       },
     },

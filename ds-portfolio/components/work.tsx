@@ -1,6 +1,4 @@
 import Image from "next/image";
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
 
 export default function Work() {
   return (
@@ -9,7 +7,9 @@ export default function Work() {
       id="work"
       className="flex min-h-screen flex-col justify-center items-center space-y-10 p-10 pt-16 mb-4 h-screen"
     >
-      <h1 className="text-white text-5xl mt-16 mb-4">WORK</h1>
+      <h1 className="text-white text-5xl mt-16 mb-4 font-heading font-medium">
+        PROJECTS
+      </h1>
       {/* Rounded corners on the skill boxes within each project */}
       {/* Different font for the project titles, not serif */}
       {/* Shorten text or break it up to being before or after the picture */}
@@ -32,11 +32,13 @@ export default function Work() {
               priority
             />
           </div>
-          <h2 className="mb-3 text-2xl font-semibold">Restaurant Aggregator</h2>
-          <p className="mb-3 max-w-[33ch] text-sm opacity-80">
+          <h2 className="mb-3 text-2xl font-semibold font-heading">
+            Restaurant Aggregator
+          </h2>
+          <p className="mb-3 max-w-[33ch] text-sm opacity-80 font-sans font-medium">
             React.js, Case Study
           </p>
-          <p className="mb-3 max-w-[40ch] text-sm opacity-50">
+          <p className="mb-3 max-w-[40ch] text-sm opacity-70 font-sans">
             Created a restaurant aggregrator using React to allow users to
             filter for Providence-based restaurants by food and distance
             preferences.
@@ -57,11 +59,13 @@ export default function Work() {
               priority
             />
           </div>
-          <h2 className="mb-3 text-2xl font-semibold">Warp Community</h2>
-          <p className="mb-3 max-w-[33ch] text-sm opacity-80">
+          <h2 className="mb-3 text-2xl font-semibold font-heading">
+            Warp Community
+          </h2>
+          <p className="mb-3 max-w-[33ch] text-sm opacity-80 font-sans font-medium">
             UI/UX, Case Study
           </p>
-          <p className="mb-3 max-w-[40ch] text-sm opacity-50">
+          <p className="mb-3 max-w-[40ch] text-sm opacity-70 font-sans">
             Worked with Warp founders to prototype lo-fi and hi-fi Figma designs
             of a community feature for Warp developers to share and publish
             tools.
@@ -77,16 +81,18 @@ export default function Work() {
               className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert rounded-lg"
               src="/mlb.png"
               alt="Next.js Logo"
-              width={230}
+              width={250}
               height={47}
               priority
             />
           </div>
-          <h2 className="mb-3 text-2xl font-semibold">Rapsodo PRO 3.0</h2>
-          <p className="mb-3 max-w-[33ch] text-sm opacity-80">
+          <h2 className="mb-3 text-2xl font-semibold font-heading">
+            Rapsodo PRO 3.0
+          </h2>
+          <p className="mb-3 max-w-[33ch] text-sm opacity-80 font-sans font-medium">
             Python, MongoDB, DataViz, Internship
           </p>
-          <p className="mb-3 max-w-[40ch] text-sm opacity-50">
+          <p className="mb-3 max-w-[40ch] text-sm opacity-70 font-sans">
             Created a Plotly dashboard visualizing sources and breakdowns of
             error during pre-launch product testing of the Rapsodo PRO 3.0
             machines.

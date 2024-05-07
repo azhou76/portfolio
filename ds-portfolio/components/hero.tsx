@@ -48,7 +48,7 @@ export default function Hero() {
         <div className="space-y-10">
           <h2
             id="topSlideContainer"
-            className="bold text-left text-5xl max-w-xl font-serif"
+            className="font-medium text-left text-5xl max-w-xl font-heading"
           >
             Hi, I'm Alex :)
           </h2>
@@ -56,7 +56,7 @@ export default function Hero() {
             I'm a{" "}
             <span
               id="textContainer"
-              className="hidden text-red-500 transition-colors duration-1000 font-monospace"
+              className="hidden text-blue-700 transition-colors duration-1000 font-sans"
             >
               Software; Engineer;, Data; Scientist;, and; Business; Manager
             </span>
@@ -69,7 +69,7 @@ export default function Hero() {
             who loves football and performing in classical orchestras as a
             timpanist.
           </p>
-          <div className="flex justify-left sm:space-x-7 bottom-7">
+          <div className="flex justify-left sm:space-x-7">
             <Link
               href="https://www.linkedin.com/in/alexander-zhou-8b7b98229/"
               className="group rounded-lg border border-transparent transition-colors hover:border-gray-300 hover:bg-gray-200 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/3"
