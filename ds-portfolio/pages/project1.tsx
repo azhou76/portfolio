@@ -97,44 +97,39 @@ export default function Project1() {
 
               <div className="flex flex-col items-center space-y-10 w-screen max-w-[60%] mb-[5%]">
                 <p className="font-sans text-gray-600">
-                  To inform which features our aggregator included in its
-                  design, a Competitive Analysis was first conducted using three
-                  different websites/apps and across six different factors. The
-                  websites used were the CBS Sports App, Gmail, and Spotify, and
-                  the results of the analysis can be seen below.
+                  A Competitive Analysis was conducted on the CBS Sports App,
+                  Gmail, and Spotify to evaluate the pros and cons of each
+                  website's existing aggregator (i.e. like/favorite feature)
                 </p>
                 <div className="flex flex-row space-x-4">
                   <Image
                     className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                     src="/spotify.png"
-                    alt="Next.js Logo"
-                    width={150}
+                    alt="Spotify page"
+                    width={170}
                     height={500}
                     priority
                   />
                   <Image
                     className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                     src="/cbs.png"
-                    alt="Next.js Logo"
-                    width={150}
+                    alt="CBS Sports App page"
+                    width={170}
                     height={500}
                     priority
                   />
                   <Image
                     className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                     src="/gmail2.png"
-                    alt="Next.js Logo"
+                    alt="Gmail page"
                     width={700}
-                    height={150}
+                    height={120}
                     priority
                   />
                 </div>
                 <p className="font-sans text-gray-600">
-                  To inform which features our aggregator included in its
-                  design, a Competitive Analysis was first conducted using three
-                  different websites/apps and across six different factors. The
-                  websites used were the CBS Sports App, Gmail, and Spotify, and
-                  the results of the analysis can be seen below.
+                  The websites' aggregators were evaluated across six different
+                  factor with the competitive analysis chart shown below.
                 </p>
                 <Image
                   className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
@@ -146,12 +141,25 @@ export default function Project1() {
                 />
 
                 <p className="font-sans text-gray-600">
-                  To inform which features our aggregator included in its
-                  design, a Competitive Analysis was first conducted using three
-                  different websites/apps and across six different factors. The
-                  websites used were the CBS Sports App, Gmail, and Spotify, and
-                  the results of the analysis can be seen below.
+                  From the analysis, the key features that guided implementation
+                  of the restaurant aggregator included:{" "}
                 </p>
+                <ol className="font-sans text-gray-600 space-y-8 mt-8">
+                  {" "}
+                  <li className="ml-8">
+                    1. a clear, hierarchical visual distinction between
+                    favorited and non-favorited items (as seen from the CBS
+                    Sports App)
+                  </li>
+                  <li className="ml-8">
+                    2. ease of favoriting/unfavoriting items (as seen from
+                    Gmail)
+                  </li>
+                  <li className="ml-8">
+                    3. ability to filter and sort favorited items by various
+                    criteria (as seen from Gmail)
+                  </li>
+                </ol>
               </div>
             </div>
           </div>
@@ -167,28 +175,34 @@ export default function Project1() {
                 <p className="font-sans text-gray-600">
                   Leveraging the takeaways from a Competitive Analysis, I
                   decided to create an aggregator themed around restaurants
-                  located around Brown University's campus. Specifically, the
-                  website allows users to filter the listed restaurants based on
-                  the available food options (i.e. vegan, vegetarian, or seafood
-                  options) and distance to campus, sort them in increasing order
-                  of average entree price, and favorite/unfavorite them so that
-                  they appear at the top/bottom. These tools are aimed at
-                  helping students more efficiently narrow down their next spot
-                  to eat, so that they can satisfy their various dietary and
-                  accessibility needs/desires. A reset button was also included
-                  on the website to allow users to clear out any set
-                  filters/sorting and view the full range of restaurants on the
-                  website.
+                  located around Brown University's campus. This aggregator is
+                  aimed at helping students more efficiently narrow down their
+                  next spot to eat, so that they can satisfy their various
+                  dietary and accessibility needs/desires.
                 </p>
 
-                <Image
-                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                  src="/restaurant1.png"
-                  alt="Next.js Logo"
-                  width={800}
-                  height={600}
-                  priority
-                />
+                <a href="http://development-pink.vercel.app/">
+                  <Image
+                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                    src="/restaurant1.png"
+                    alt="Next.js Logo"
+                    width={800}
+                    height={600}
+                    priority
+                  />
+                </a>
+                <p className="font-sans text-gray-600">
+                  Users are able to <span className="font-bold">filter</span>{" "}
+                  the listed restaurants based on the{" "}
+                  <span className="font-bold">available food options</span>{" "}
+                  (i.e. vegan, vegetarian, or seafood options) and{" "}
+                  <span className="font-bold">distance</span> to campus,{" "}
+                  <span className="font-bold">sort</span> them in increasing
+                  order of{" "}
+                  <span className="font-bold">average entree price</span>, and{" "}
+                  <span className="font-bold">favorite/unfavorite</span> them so
+                  that they appear at the top/bottom.
+                </p>
 
                 <p className="font-sans text-gray-600">
                   The resulting restaurant aggregator is shown above and is
@@ -210,29 +224,18 @@ export default function Project1() {
               </h2>
               <ol className="font-sans text-gray-600 max-w-[65%] space-y-8">
                 <li>
-                  1. By first conducting a competitive analysis looking at how
-                  existing websites have designed their aggregators, I was able
-                  to evaluate the subtle, and often overlooked, differences
-                  between them before deciding on aspects of each I wanted to
-                  incorporate into my own implementation.
+                  1. First conducting a competitive analysis looking at how
+                  existing websites allowed for a more nuanced evaluation of
+                  feature differences and tradeoffs
                 </li>
                 <li>
-                  2. I was surprised to find that taking this initial step to
-                  plan out what features I wanted to include in my design
-                  significantly expedited the development process and made the
-                  final product much better.
+                  2. Initial planning of which features to implement and how to
+                  go about doing so expedited the development process and made
+                  the final product much better
                 </li>
                 <li>
-                  3. Even though the pre-development stages of this project
-                  didn't necessarily involve drawing up lo-fi wireframes or
-                  hi-fi prototypes, having some form of visualization pertaining
-                  to different aspects of the aggregator was incredibly helpful.
-                </li>
-                <li>
-                  4. In particularly saturated industries with heavy online
-                  dependence, conducting a Competitive Analysis can serve as a
-                  crucial differentiating factor for companies when developing
-                  their various features.
+                  3. Responsive and accesible design is just as important as any
+                  other aspect of a website's design
                 </li>
               </ol>
             </div>
