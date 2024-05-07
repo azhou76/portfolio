@@ -36,7 +36,7 @@ export default function Hero() {
 
   return (
     <div className="flex flex-col items-center justify-center space-y-10 h-screen">
-      <div className="flex flex-row items-center space-x-20">
+      <div className="flex md:flex-row flex-col-reverse items-center space-x-20">
         <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert rounded-lg"
           src="/Solo1.png"

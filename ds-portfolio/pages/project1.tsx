@@ -23,23 +23,23 @@ export default function Project1() {
             />
           </div>
           <div className="bg-green-700">
-            <div className="flex flex-row justify-evenly space-x-16 w-screen text-white pt-8 pb-8">
-              <div className="flex flex-col space-y-4 text-white">
+            <div className="flex md:flex-row md:justify-evenly md:space-x-16 w-screen text-white pt-8 pb-8 flex-col md:pl-0 pl-[36%]">
+              <div className="flex flex-col space-y-4 text-white md:py-0 py-8">
                 <h2 className="font-semibold text-3xl font-serif">Role</h2>
                 <p className="font-sans text-white">User interface designer</p>
                 <p className="font-sans text-white">
                   User interface programmer
                 </p>
               </div>
-              <div className="flex flex-col space-y-4 text-white">
+              <div className="flex flex-col space-y-4 text-white md:py-0 py-8">
                 <h2 className="font-semibold text-3xl font-serif">Team</h2>
                 <p className="font-sans text-white">Alexander Zhou</p>
               </div>
-              <div className="flex flex-col space-y-4 text-white">
+              <div className="flex flex-col space-y-4 text-white md:py-0 py-8">
                 <h2 className="font-semibold text-3xl font-serif">Timeline</h2>
                 <p className="font-sans text-white">April 2024 (1 week)</p>
               </div>
-              <div className="flex flex-col space-y-4">
+              <div className="flex flex-col space-y-4 text-white md:py-0 py-8">
                 <h2 className="font-semibold text-3xl font-serif">
                   Tools Used
                 </h2>
@@ -52,12 +52,12 @@ export default function Project1() {
             </div>
           </div>
           <div className="bg-gray-100">
-            <div className="flex flex-row justify-between w-screen pl-32 pr-32 pt-16 pb-16">
-              <h2 className="font-semibold text-3xl font-serif max-w-[35%] pl-16">
+            <div className="flex md:flex-row md:justify-between w-screen pl-32 pr-32 pt-16 pb-16 flex-col items-center space-y-8">
+              <h2 className="font-semibold text-3xl font-serif max-w-[35%] md:pl-16 pl-0">
                 Context
               </h2>
 
-              <p className="font-sans text-gray-600 max-w-[65%]">
+              <p className="font-sans text-gray-600 md:max-w-[65%] max-w-[80%]">
                 Leverage a{" "}
                 <span className="font-bold">competitive analysis</span> to
                 synthesize the best features of existing website aggregators for
@@ -70,11 +70,11 @@ export default function Project1() {
             </div>
           </div>
           <div className="bg-white">
-            <div className="flex flex-row justify-between w-screen pl-32 pr-32 pt-16 pb-16">
-              <h2 className="font-semibold text-3xl font-serif max-w-[35%] pl-16">
+            <div className="flex md:flex-row md:justify-between w-screen pl-32 pr-32 pt-16 pb-16 flex-col items-center space-y-8">
+              <h2 className="font-semibold text-3xl font-serif max-w-[35%] md:pl-16 pl-0">
                 Problem
               </h2>
-              <ol className="font-sans text-gray-600 max-w-[65%] space-y-8">
+              <ol className="font-sans text-gray-600 md:max-w-[65%] max-w-[80%] space-y-8">
                 <li>
                   1. Poor usability leads to poor engagement and thus
                   profitability
@@ -89,8 +89,8 @@ export default function Project1() {
           </div>
           <div className="bg-gray-100">
             <div className="flex flex-col items-center">
-              <div className="flex flex-row justify-between w-screen pl-32 pr-32 pt-16 pb-8">
-                <h2 className="font-semibold text-3xl font-serif max-w-[35%] pl-16">
+              <div className="flex md:flex-row md:justify-between w-screen pl-32 pr-32 pt-16 pb-8 flex-col items-center space-y-8">
+                <h2 className="font-semibold text-3xl font-serif max-w-[35%] md:pl-16 pl-0">
                   Research
                 </h2>
               </div>
@@ -101,29 +101,29 @@ export default function Project1() {
                   Gmail, and Spotify to evaluate the pros and cons of each
                   website's existing aggregator (i.e. like/favorite feature)
                 </p>
-                <div className="flex flex-row space-x-4">
+                <div className="flex md:flex-row md:space-x-4 flex-col space-y-4">
                   <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                    src="/spotify.png"
+                    className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert md:pt-6"
+                    src="/spotify_logo.png"
                     alt="Spotify page"
-                    width={170}
-                    height={500}
+                    width={160}
+                    height={100}
                     priority
                   />
                   <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                    src="/cbs.png"
+                    className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert md:pt-2"
+                    src="/cbssports.png"
                     alt="CBS Sports App page"
-                    width={170}
-                    height={500}
+                    width={160}
+                    height={100}
                     priority
                   />
                   <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                    src="/gmail2.png"
+                    className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert md:pt-2"
+                    src="/gmail3.png"
                     alt="Gmail page"
-                    width={700}
-                    height={120}
+                    width={160}
+                    height={100}
                     priority
                   />
                 </div>
@@ -165,8 +165,8 @@ export default function Project1() {
           </div>
           <div className="bg-white">
             <div className="flex flex-col items-center">
-              <div className="flex flex-row justify-between w-screen pl-32 pr-32 pt-16 pb-8">
-                <h2 className="font-semibold text-3xl font-serif max-w-[35%] pl-16">
+              <div className="flex md:flex-row md:justify-between w-screen pl-32 pr-32 pt-16 pb-8 flex-col items-center space-y-8">
+                <h2 className="font-semibold text-3xl font-serif max-w-[35%] md:pl-16 pl-0">
                   Outcome
                 </h2>
               </div>
@@ -218,11 +218,11 @@ export default function Project1() {
             </div>
           </div>
           <div className="bg-gray-100">
-            <div className="flex flex-row justify-between w-screen pl-32 pr-32 pt-16 pb-16">
-              <h2 className="font-semibold text-3xl font-serif max-w-[35%] pl-16">
+            <div className="flex md:flex-row md:justify-between w-screen pl-32 pr-32 pt-16 pb-16 flex-col items-center space-y-8">
+              <h2 className="font-semibold text-3xl font-serif max-w-[35%] md:pl-16 pl-0">
                 Learnings
               </h2>
-              <ol className="font-sans text-gray-600 max-w-[65%] space-y-8">
+              <ol className="font-sans text-gray-600 md:max-w-[65%] max-w-[80%] space-y-8">
                 <li>
                   1. First conducting a competitive analysis looking at how
                   existing websites allowed for a more nuanced evaluation of
