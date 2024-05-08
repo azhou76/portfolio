@@ -5,283 +5,279 @@ import Navbar from "@/components/navbar";
 export default function Project3() {
   return (
     <main className="flex min-h-screen flex-col space-y-40 m-0 bg-white">
-      <div className="flex min-h-screen flex-col flex-wrap items-center space-y-20 p-0 mb-[10%]">
+      <div className="flex min-h-screen flex-col flex-wrap items-center space-y-20 p-0">
         <Navbar></Navbar>
-        <div className="flex flex-col space-y-10 mb-[20%]">
-          <h1 className="font-semibold text-left text-5xl max-w-xl font-serif pl-16 pt-16">
+        <div className="flex flex-col mb-[20%]">
+          <h1 className="font-semibold text-left text-4xl max-w-xl font-heading pl-16 pt-16">
             Rapsodo PRO 3.0
           </h1>
-          <Image
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert pl-32 pt-8 pr-16"
-            src="/rapsodo1.png"
-            alt="Next.js Logo"
-            width={1400}
-            height={1400}
-            priority
-          />
+          <div className="flex flex-col items-center">
+            <Image
+              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert pt-8 pb-8"
+              src="/rapsodo1.png"
+              alt="Next.js Logo"
+              width={1100}
+              height={1100}
+              priority
+            />
+          </div>
           <div className="bg-red-700">
-            <div className="flex flex-row justify-evenly space-x-16 w-screen text-white pt-8 pb-8">
-              <div className="flex flex-col space-y-4 text-white">
-                <h2 className="font-semibold text-3xl font-serif">Role</h2>
+            <div className="flex md:flex-row md:justify-evenly md:space-x-16 w-screen text-white pt-8 pb-8 flex-col md:pl-0 pl-[36%]">
+              <div className="flex flex-col space-y-4 text-white md:py-0 py-8">
+                <h2 className="font-semibold text-3xl font-heading">Role</h2>
                 <p className="font-sans text-white">Data Analytics Intern</p>
               </div>
-              <div className="flex flex-col space-y-4 text-white">
-                <h2 className="font-semibold text-3xl font-serif">Team</h2>
+              <div className="flex flex-col space-y-4 text-white md:py-0 py-8">
+                <h2 className="font-semibold text-3xl font-heading">Team</h2>
                 <p className="font-sans text-white">Alexander Zhou</p>
+                <p className="font-sans text-white">
+                  John Garrett (Supervisor)
+                </p>
                 <p className="font-sans text-white">
                   Rapsodo Product Development Team
                 </p>
               </div>
-              <div className="flex flex-col space-y-4 text-white">
-                <h2 className="font-semibold text-3xl font-serif">Timeline</h2>
+              <div className="flex flex-col space-y-4 text-white md:py-0 py-8">
+                <h2 className="font-semibold text-3xl font-heading">
+                  Timeline
+                </h2>
                 <p className="font-sans text-white">June 2022 (3 weeks)</p>
               </div>
-              <div className="flex flex-col space-y-4">
-                <h2 className="font-semibold text-3xl font-serif">
+              <div className="flex flex-col space-y-4 text-white md:py-0 py-8">
+                <h2 className="font-semibold text-3xl font-heading">
                   Tools Used
                 </h2>
-                <p className="font-sans text-white">Python (Plotly, Pandas)</p>
+                <p className="font-sans text-white">Python (Pandas, Plotly)</p>
                 <p className="font-sans text-white">MongoDB</p>
+                <p className="font-sans text-white">Data Visualization</p>
               </div>
             </div>
           </div>
-          <div className="space-y-20 ml-[15%] mb-[20%] max-w-[70%]">
-            <h2 className="font-semibold text-3xl font-serif">Context</h2>
+          <div className="bg-gray-100">
+            <div className="flex md:flex-row md:justify-between w-screen pl-32 pr-32 pt-16 pb-16 flex-col md:items-auto md:space-y-0 items-center space-y-8">
+              <h2 className="font-semibold text-3xl font-heading max-w-[35%] md:pl-16 pl-0">
+                Context
+              </h2>
 
-            <p className="font-sans text-gray-600">
-              This project was done as part of the UI/UX course at Brown, with
-              this project aiming to take a deeper dive into competitor analysis
-              and the development of dynamic and responsive websites using
-              React.js.
-            </p>
-            <h2 className="font-semibold text-3xl font-serif">Problem</h2>
+              <p className="font-sans text-gray-600 md:max-w-[65%] max-w-[80%]">
+                Develop a data dashboard to enable the Rapsodo Product
+                Development Team to easily visualize the breakdowns of machine
+                errors produced by the PRO 3.0 during product testing and apply
+                findings to improve machine accuracy
+              </p>
+            </div>
+          </div>
+          <div className="bg-white">
+            <div className="flex md:flex-row md:justify-between w-screen pl-32 pr-32 pt-16 pb-16 flex-col md:items-auto md:space-y-0 items-center space-y-8">
+              <h2 className="font-semibold text-3xl font-heading max-w-[35%] md:pl-16 pl-0">
+                Problem
+              </h2>
+              <ol className="font-sans text-gray-600 md:max-w-[65%] max-w-[80%] space-y-8">
+                <li>
+                  1. Thousands of product tests were being conducted everyday on
+                  PRO 3.0 machines using different firmware versions, all of
+                  which needed to be analyzed against each other, the company's
+                  previous 2.0 machine, and competitor products
+                </li>
+                <li>
+                  2. The PRO 3.0 was set to launch by the end of the summer as
+                  Rapsodo's largest product launch to-date
+                </li>
+                <li>
+                  3. The Product Development Team had a limited programming
+                  background and required an easy-to-use dashboard that could
+                  adjust to new incoming data
+                </li>
+                <li>
+                  4. Baseball domain knowledge was required in order to
+                  accurately set thresholds on the dashboard and account for
+                  different pitch types, spin and velocity ranges, and machine
+                  error types
+                </li>
+              </ol>
+            </div>
+          </div>
+          <div className="bg-gray-100">
+            <div className="flex flex-col items-center">
+              <div className="flex md:flex-row md:justify-between w-screen pl-32 pr-32 pt-16 pb-8 flex-col items-center space-y-8">
+                <h2 className="font-semibold text-3xl font-heading max-w-[35%] md:pl-16 pl-0">
+                  Research
+                </h2>
+              </div>
 
-            <p className="font-sans text-gray-600">
-              In highly competitive industries, the usability and efficiency of
-              certain features on a company website can make vast differences on
-              user engagement, experience, and company profitability. These
-              seemingly small variations across interface features can build
-              into substantial swings that ultimately push companies with better
-              online user experiences towards having larger market shares.
-              Therefore, even when developing common features of a website, it
-              is important to analyze the pros and cons of existing websites
-              that have these features via a Competitive Analysis, synthesizing
-              the best aspects across them to build out something that maximizes
-              accessibility and usability. In this project, we specifically look
-              at websites that have aggregators, such as shopping carts,
-              equipped with a favoriting function.
-            </p>
-            <h2 className="font-semibold text-3xl font-serif">Research</h2>
-            <Image
-              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-              src="/next.svg"
-              alt="Next.js Logo"
-              width={360}
-              height={74}
-              priority
-            />
-            <p className="font-sans text-gray-600">
-              To inform which features our aggregator included in its design, a
-              Competitive Analysis was first conducted using three different
-              websites/apps and across six different factors. The websites used
-              were the CBS Sports App, Gmail, and Spotify, and the results of
-              the analysis can be seen above.
-            </p>
-            <h2 className="font-semibold text-3xl font-serif">Outcome</h2>
-            <Image
-              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-              src="/next.svg"
-              alt="Next.js Logo"
-              width={360}
-              height={74}
-              priority
-            />
-            <p className="font-sans text-gray-600">
-              Leveraging the takeaways from a Competitive Analysis, I decided to
-              create an aggregator themed around restaurants located around
-              Brown University's campus. Specifically, the website allows users
-              to filter the listed restaurants based on the available food
-              options (i.e. vegan, vegetarian, or seafood options) and distance
-              to campus, sort them in increasing order of average entree price,
-              and favorite/unfavorite them so that they appear at the
-              top/bottom. These tools are aimed at helping students more
-              efficiently narrow down their next spot to eat, so that they can
-              satisfy their various dietary and accessibility needs/desires. A
-              reset button was also included on the website to allow users to
-              clear out any set filters/sorting and view the full range of
-              restaurants on the website.
-            </p>
-            <p>
-              The resulting restaurant aggregator is shown above and is deployed
-              at{" "}
-              <a
-                className="text-blue-600 underline"
-                href="http://development-pink.vercel.app/"
-              >
-                http://development-pink.vercel.app/
-              </a>
-            </p>
+              <div className="flex flex-col items-center space-y-10 w-screen max-w-[60%] mb-[5%]">
+                <p className="font-sans text-gray-600">
+                  All product testing data was directly uploaded into a MongoDB
+                  database. Having never used MongoDB prior to the internship,
+                  the first step in the dashboard development process was to
+                  look at pymongo scripts written by previous interns/developers
+                  at the company to develop an understanding of pymongo
+                  aggregation pipelines, including how to connect via the
+                  company's connection string.
+                </p>
+                <div className="flex md:flex-row md:space-x-4 flex-col space-y-4">
+                  <Image
+                    className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert md:pt-6"
+                    src="/mongodb.png"
+                    alt="Spotify page"
+                    width={180}
+                    height={100}
+                    priority
+                  />
+                  <Image
+                    className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert md:pt-2"
+                    src="/plotly.png"
+                    alt="CBS Sports App page"
+                    width={160}
+                    height={100}
+                    priority
+                  />
+                </div>
+                <p className="font-sans text-gray-600">
+                  Coming from a Python background with limited full stack
+                  experience at the time, my supervisor proposed looking into
+                  Plotly as a library for building out the actual dashboard and
+                  visualizations. Online documentation and examples of other
+                  kinds of data dashboards guided learning.
+                </p>
+                <Image
+                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  src="/rapsodo3.png"
+                  alt="Next.js Logo"
+                  width={300}
+                  height={500}
+                  priority
+                />
 
-            <h2 className="font-semibold text-3xl font-serif">Learnings</h2>
-            <p className="font-sans text-gray-600">
-              By first conducting a competitive analysis looking at how existing
-              websites have designed their aggregators, I was able to evaluate
-              the subtle, and often overlooked, differences between them before
-              deciding on aspects of each I wanted to incorporate into my own
-              implementation. I was surprised to find that taking this initial
-              step to plan out what features I wanted to include in my design
-              significantly expedited the development process and made the final
-              product much better. Even though the pre-development stages of
-              this project didn't necessarily involve drawing up lo-fi
-              wireframes or hi-fi prototypes, having some form of visualization
-              pertaining to different aspects of the aggregator was incredibly
-              helpful. Ultimately, in particularly saturated industries with
-              heavy online dependence, conducting a Competitive Analysis can
-              serve as a crucial differentiating factor for companies when
-              developing their various features.
-            </p>
+                <p className="font-sans text-gray-600">
+                  Finally, having come from a limited baseball background,
+                  plenty of meetings were held with the rest of the Product
+                  Development Team to gather domain knowledge for determining
+                  reasonable filter and error thresholds.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-white">
+            <div className="flex flex-col items-center">
+              <div className="flex md:flex-row md:justify-between w-screen pl-32 pr-32 pt-16 pb-8 flex-col items-center space-y-8">
+                <h2 className="font-semibold text-3xl font-heading max-w-[35%] md:pl-16 pl-0">
+                  Outcome
+                </h2>
+              </div>
+
+              <div className="flex flex-col items-center space-y-10 w-screen max-w-[60%] mb-[5%]">
+                <p className="font-sans text-gray-600">
+                  An optimized pymongo aggregation pipeline was created so that
+                  on each run, the dashboard would query live product testing
+                  results directly from the company's MongoDB database. The
+                  dashboard (shown below) had filters for date range, location,
+                  player/coach/user/machine ID, sport (baseball vs. softball),
+                  machine version (PRO 3.0 vs. previous 2.0 machine), pitch
+                  type, and pitch locations (relative to the strike zone).
+                </p>
+
+                <Image
+                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  src="/rapsodo9.png"
+                  alt="Next.js Logo"
+                  width={800}
+                  height={600}
+                  priority
+                />
+                <p className="font-sans text-gray-600">
+                  Errors were categorized into “bad spin confidence data” (where
+                  the machine produced numbers after reading a pitch but had low
+                  confidence in the accuracy of the spin numbers), “bad trigger
+                  no data” (where a pitch was thrown but the machine didn't read
+                  it), and “bad acceleration z data” (where the vertical break
+                  directions did not align with respect to the pitch type
+                  thrown).
+                </p>
+                <Image
+                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  src="/rapsodo8.png"
+                  alt="Next.js Logo"
+                  width={800}
+                  height={600}
+                  priority
+                />
+
+                <p className="font-sans text-gray-600">
+                  After filters were chosen, the error proportions would be
+                  displayed in an overall pie chart (shown above) as well as in
+                  line graphs displaying trends over time (shown below from
+                  1/1/2022 through 8/1/2022).
+                </p>
+                <Image
+                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  src="/rapsodo6.png"
+                  alt="Next.js Logo"
+                  width={800}
+                  height={600}
+                  priority
+                />
+
+                <p className="font-sans text-gray-600">
+                  From these initial analyses, key findings included:
+                </p>
+                <ol className="font-sans text-gray-600 md:max-w-[65%] max-w-[80%] space-y-8">
+                  <li>
+                    1. “Bad spin confidence data” had consistently been the
+                    largest source of error on the company's previous 2.0
+                    machine, but had been significantly reduced in recent
+                    firmware updates (21.7% to 6.07%)
+                  </li>
+                  <li>
+                    2. Consequently, the percentage of good data had increased
+                    from 65.5% to 84.4% from the 2.0 machine to the PRO 3.0
+                  </li>
+                  <li>
+                    3.“Bad trigger no data” had risen in recent firmware updates
+                    but by a small percentage
+                  </li>
+                </ol>
+                <p className="font-sans text-gray-600">
+                  Following the conclusion of my internship, the data dashboard
+                  was handed off to the Product Development Team, and the
+                  dashboard's insights directly guided final firmware updates
+                  leading up to the product's launch at the end of that summer.
+                  The dashboard is still something that the team uses today when
+                  analyzing new firmware updates, and the product has become the
+                  company's most successful product to date, with all 30 MLB
+                  teams heavily using it as part of their player development
+                  programs.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="bg-gray-100">
+            <div className="flex md:flex-row md:justify-between w-screen pl-32 pr-32 pt-16 pb-16 flex-col md:items-auto md:space-y-0 items-center space-y-8">
+              <h2 className="font-semibold text-3xl font-heading max-w-[35%] md:pl-16 pl-0">
+                Learnings
+              </h2>
+              <ol className="font-sans text-gray-600 md:max-w-[65%] max-w-[80%] space-y-8">
+                <li>
+                  1. Consulting domain experts is essential when building out
+                  data analytics tools, as these insights improve both the
+                  accuracy and usability of any dashboards developed
+                </li>
+                <li>
+                  2. Building out error/sanity checks and structured test suites
+                  throughout the development process is critical for narrowing
+                  down bugs and allowing for easy adaptation/change
+                </li>
+                <li>
+                  3. Holding conversations with the end stakeholders throughout
+                  the project and thoroughly commenting all features/code are
+                  critical for maximizing a project's usability as well as for
+                  ensuring a smooth handoff process
+                </li>
+              </ol>
+            </div>
           </div>
         </div>
       </div>
     </main>
   );
-
-  {
-    /*<main className="flex min-h-screen flex-col space-y-40 m-0">
-      <div className="flex min-h-screen flex-col flex-wrap items-center space-y-20 p-20 mb-[10%]">
-        <Navbar></Navbar>
-        <div className="flex flex-col space-y-10 space-x-10 sm:space-x-7 mb-[20%] max-w-[70%]">
-          <h1 className="font-semibold text-left text-5xl max-w-xl font-serif">
-            Rapsodo PRO 3.0
-          </h1>
-          <div className="flex flex-row space-x-2">
-            <p className="group border border-black px-5 py-4 bg-red-200">
-              Python
-            </p>
-            <p className="group border border-black px-5 py-4 bg-red-200">
-              MongoDB
-            </p>
-            <p className="group border border-black px-5 py-4 bg-red-200">
-              Data Vizualization
-            </p>
-            <p className="group border border-black px-5 py-4 bg-red-200">
-              June 2022 (3 weeks)
-            </p>
-          </div>
-          <h2 className="font-semibold text-3xl font-serif">Role + Team</h2>
-          <p className="font-sans text-gray-600">
-            I worked on the Product Development Team at Rapsodo and was the sole
-            programmer on the project. I consulted other members of the Product
-            Development Team to acquire the domain knowledge necessary for
-            determining various features/thresholds on the dashboard.
-          </p>
-          <h2 className="font-semibold text-3xl font-serif">Context</h2>
-          <Image
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-            src="/rapsodo1.png"
-            alt="Rapsodo PRO 3.0"
-            width={600}
-            height={300}
-            priority
-          />
-          <p className="font-sans text-gray-600">
-            During my summer 2022 internship at Rapsodo, a baseball/softabll
-            technology company, one of my biggest projects was developing a data
-            visualization dashboard to be used by the rest of the Product
-            Development Team to easily see the breakdowns of machine errors
-            produced by the beta-tested firmware updates on the PRO 3.0 machine,
-            which was set to launch by the end of the summer and be the
-            company's largest product launch to date.
-          </p>
-          <h2 className="font-semibold text-3xl font-serif">Problem</h2>
-          <Image
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={360}
-            height={74}
-            priority
-          />
-          <p className="font-sans text-gray-600">
-            In preparation for the launch of the new PRO 3.0 machine, thousands
-            of tests (i.e. pitching/hitting sessions using the machines) were
-            run each day, and the U.S. Product Development Team required an easy
-            way to measure the PRO 3.0's accuracy in comparison to competitors
-            and Rapsodo's previous products. These accuracy and error breakdowns
-            were essential for guiding the direction of the product's final
-            firmware updates aimed at reducing remaining inaccuracies as well as
-            for aiding in the product's pre-launch marketing efforts. The
-            necessity for an easy-to-use error dashboard came about as the vast
-            majority of product testing was conducted in the U.S., but the U.S.
-            office lacked anyone with strong programming capabilities.
-          </p>
-          <h2 className="font-semibold text-3xl font-serif">Solution</h2>
-          <Image
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={360}
-            height={74}
-            priority
-          />
-          <p className="font-sans text-gray-600">
-            The solution to this data visualization problem was to create a
-            user-friendly data dashboard using Python's Plotly library via which
-            the rest of the Product Development Team could query live product
-            testing results directly from the company's MongoDB database and
-            visualize the breakdowns in machine error types. By including
-            numerous filters, including date range, machine version, machine ID,
-            pitch types, etc., the team could easily identify where errors were
-            coming from (i.e. which set of factors led to greater failure rates)
-            as well as what kinds of errors were being produced (i.e. the
-            machine missing a pitch entirely vs. the machine reading the pitch
-            but then producing inaccurate results).
-          </p>
-          <h2 className="font-semibold text-3xl font-serif">Research</h2>
-          <p className="font-sans text-gray-600">
-            The project proved to be a great learning experience, having never
-            used Plotly or MongoDB prior to the creation of this dashboard.
-            Thus, building the dashboard required learning from online
-            documentation and examples of other kinds of data visualizations. In
-            addition, having come from a limited baseball background prior to
-            this internship, plenty of meetings were held with the rest of the
-            Product Development Team to source which filters and thresholds
-            would be most appropriate given different kinds of pitches, player
-            skill levels, etc.
-          </p>
-          <h2 className="font-semibold text-3xl font-serif">Learnings</h2>
-          <p className="font-sans text-gray-600">
-            One of the key learnings from this project was how crucial it is to
-            hold discussions with domain experts when building out data
-            analytics tools, as these insights improve both the accuracy and
-            usability of any dashboards developed. This project also proved to
-            be a great experience in learning in how to error check the results
-            of the dashboard in a dynamic setting, without a structured test
-            suite. Incrementally testing and commenting different features
-            throughout implementation proved necessary both for future reference
-            as well as during the handoff process at the end of the internship.
-          </p>
-          <h2 className="font-semibold text-3xl font-serif">Outcome</h2>
-          <Image
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={360}
-            height={74}
-            priority
-          />
-          <p className="font-sans text-gray-600">
-            Following the conclusion of my internship, the data dashboard was
-            handed off to the Product Development Team, and it is still
-            something that the team uses to date when analyzing the performances
-            of new firmware updates to the PRO 3.0. The product was also
-            formally launched to the public at the end of my time there,
-            becoming the company's most successful product to date, with all 30
-            MLB teams heavily using it as part of their player development
-            programs.
-          </p>
-        </div>
-      </div>
-    </main> */
-  }
 }

@@ -8,38 +8,40 @@ export default function Project2() {
       <div className="flex min-h-screen flex-col flex-wrap items-center space-y-20 p-0">
         <Navbar></Navbar>
         <div className="flex flex-col mb-[20%]">
-          <h1 className="font-semibold text-left text-5xl max-w-xl font-serif pl-16 pt-16">
+          <h1 className="font-semibold text-left text-4xl max-w-xl font-heading pl-16 pt-16">
             Warp Community
           </h1>
           <div className="flex flex-col items-center">
             <Image
               className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert pt-8 pb-8"
-              src="/warp1.png"
+              src="/warp.png"
               alt="Next.js Logo"
-              width={1400}
-              height={1400}
+              width={1100}
+              height={1100}
               priority
             />
           </div>
           <div className="bg-purple-900">
-            <div className="flex flex-row justify-evenly space-x-16 w-screen text-white pt-8 pb-8">
-              <div className="flex flex-col space-y-4 text-white">
-                <h2 className="font-semibold text-3xl font-serif">Role</h2>
+            <div className="flex md:flex-row md:justify-evenly md:space-x-16 w-screen text-white pt-8 pb-8 flex-col md:pl-0 pl-[36%]">
+              <div className="flex flex-col space-y-4 text-white md:py-0 py-8">
+                <h2 className="font-semibold text-3xl font-heading">Role</h2>
                 <p className="font-sans text-white">User interface designer</p>
               </div>
-              <div className="flex flex-col space-y-4 text-white">
-                <h2 className="font-semibold text-3xl font-serif">Team</h2>
+              <div className="flex flex-col space-y-4 text-white md:py-0 py-8">
+                <h2 className="font-semibold text-3xl font-heading">Team</h2>
                 <p className="font-sans text-white">Alexander Zhou</p>
                 <p className="font-sans text-white">Angela Li</p>
                 <p className="font-sans text-white">Patrick Li</p>
                 <p className="font-sans text-white">Jennifer Chen</p>
               </div>
-              <div className="flex flex-col space-y-4 text-white">
-                <h2 className="font-semibold text-3xl font-serif">Timeline</h2>
+              <div className="flex flex-col space-y-4 text-white md:py-0 py-8">
+                <h2 className="font-semibold text-3xl font-heading">
+                  Timeline
+                </h2>
                 <p className="font-sans text-white">April 2024 (3 weeks)</p>
               </div>
-              <div className="flex flex-col space-y-4">
-                <h2 className="font-semibold text-3xl font-serif">
+              <div className="flex flex-col space-y-4 text-white md:py-0 py-8">
+                <h2 className="font-semibold text-3xl font-heading">
                   Tools Used
                 </h2>
                 <p className="font-sans text-white">Figma</p>
@@ -48,182 +50,411 @@ export default function Project2() {
             </div>
           </div>
           <div className="bg-gray-100">
-            <div className="flex flex-row justify-between w-screen pl-32 pr-32 pt-16 pb-16">
-              <h2 className="font-semibold text-3xl font-serif max-w-[35%] pl-16">
+            <div className="flex md:flex-row md:justify-between w-screen pl-32 pr-32 pt-16 pb-16 flex-col md:items-auto md:space-y-0 items-center space-y-8">
+              <h2 className="font-semibold text-3xl font-heading max-w-[35%] md:pl-16 pl-0">
                 Context
               </h2>
 
-              <p className="font-sans text-gray-600 max-w-[65%]">
-                Leverage a{" "}
-                <span className="font-bold">competitive analysis</span> to
-                synthesize the best features of existing website aggregators for
-                the development of a{" "}
-                <span className="font-bold">
-                  dynamic and responsive website
-                </span>{" "}
-                using <span className="font-bold">React.js</span>.
+              <p className="font-sans text-gray-600 md:max-w-[65%] max-w-[80%]">
+                Construct an interactive,{" "}
+                <span className="font-bold">high-fidelity prototype</span> for{" "}
+                <span className="font-bold">Warp</span>, a terminal reimagined
+                with AI and collaborative tools, specifically ideating a{" "}
+                <span className="font-bold">community feature</span> to enable
+                programmers to engage with other users
               </p>
             </div>
           </div>
           <div className="bg-white">
-            <div className="flex flex-row justify-between w-screen pl-32 pr-32 pt-16 pb-16">
-              <h2 className="font-semibold text-3xl font-serif max-w-[35%] pl-16">
+            <div className="flex md:flex-row md:justify-between w-screen pl-32 pr-32 pt-16 pb-16 flex-col md:items-auto md:space-y-0 items-center space-y-8">
+              <h2 className="font-semibold text-3xl font-heading max-w-[35%] md:pl-16 pl-0">
                 Problem
               </h2>
-              <ol className="font-sans text-gray-600 max-w-[65%] space-y-8">
+              <ol className="font-sans text-gray-600 md:max-w-[65%] max-w-[80%] space-y-8">
                 <li>
-                  1. Poor usability leads to poor engagement and thus
-                  profitability
+                  1. In Warp today, there is{" "}
+                  <span className="font-bold">no place</span> in the product to{" "}
+                  <span className="font-bold">connect with other users</span>,
+                  share tools, or install extensions
                 </li>
-                <li>2. Extensive user research is expensive</li>
                 <li>
-                  3. A strong online brand is as essential as ever, especially
-                  in competitive industries that require digital engagement
+                  2. <span className="font-bold">Creators</span> are unable to
+                  share their tools to other users
+                </li>
+                <li>
+                  3. <span className="font-bold">Consumers/developers</span> are
+                  unable to find tools that have been created by other
+                  developers
+                </li>
+                <li>
+                  4. Users{" "}
+                  <span className="font-bold">
+                    may have to leave the interface
+                  </span>{" "}
+                  in order to find certain terminal tools/methodologies
                 </li>
               </ol>
             </div>
           </div>
           <div className="bg-gray-100">
             <div className="flex flex-col items-center">
-              <div className="flex flex-row justify-between w-screen pl-32 pr-32 pt-16 pb-8">
-                <h2 className="font-semibold text-3xl font-serif max-w-[35%] pl-16">
+              <div className="flex md:flex-row md:justify-between w-screen pl-32 pr-32 pt-16 pb-8 flex-col items-center space-y-8">
+                <h2 className="font-semibold text-3xl font-heading max-w-[35%] md:pl-16 pl-0">
                   Research
                 </h2>
               </div>
 
               <div className="flex flex-col items-center space-y-10 w-screen max-w-[60%] mb-[5%]">
                 <p className="font-sans text-gray-600">
-                  A Competitive Analysis was conducted on the CBS Sports App,
-                  Gmail, and Spotify to evaluate the pros and cons of each
-                  website's existing aggregator (i.e. like/favorite feature)
+                  All members of our team began by{" "}
+                  <span className="font-bold">sketching end-to-end flows</span>{" "}
+                  before coming together and deciding on the best features
+                  across all the sketches.
                 </p>
-                <div className="flex flex-row space-x-4">
-                  <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                    src="/spotify.png"
-                    alt="Spotify page"
-                    width={150}
-                    height={500}
-                    priority
-                  />
-                  <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                    src="/cbs.png"
-                    alt="CBS Sports App page"
-                    width={150}
-                    height={500}
-                    priority
-                  />
-                  <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                    src="/gmail2.png"
-                    alt="Gmail page"
-                    width={700}
-                    height={150}
-                    priority
-                  />
-                </div>
-                <p className="font-sans text-gray-600">
-                  The websites' aggregators were evaluated across six different
-                  factor with the competitive analysis chart shown below.
-                </p>
+
+                <p className="font-sans text-gray-600">Example Sketch:</p>
                 <Image
-                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                  src="/chart.png"
-                  alt="Competitive Logo"
-                  width={700}
-                  height={500}
+                  className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  src="/sketch1.png"
+                  alt="CBS Sports App page"
+                  width={460}
+                  height={400}
                   priority
                 />
 
                 <p className="font-sans text-gray-600">
-                  To inform which features our aggregator included in its
-                  design, a Competitive Analysis was first conducted using three
-                  different websites/apps and across six different factors. The
-                  websites used were the CBS Sports App, Gmail, and Spotify, and
-                  the results of the analysis can be seen below.
+                  These features were then incorporated into an initial set of{" "}
+                  <span className="font-bold">low-fidelity wireframes</span>.
+                  The key design decisions we agreed upon when creating the
+                  wireframes were to maximize whitespace, keep the Warp terminal
+                  visible even when users have their Drive, AI, and Community
+                  panels open, and ensure the Community feature and user
+                  profiles are intuitive to use. These decisions were driven by
+                  the idea that{" "}
+                  <span className="font-bold">Warp is a terminal first</span>{" "}
+                  and that any additional features, including the Community
+                  feature, should not take away from that experience.
                 </p>
+                <p className="font-sans text-gray-600">
+                  Initial Community Page:
+                </p>
+                <Image
+                  className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  src="/initial_lofi1.png"
+                  alt="CBS Sports App page"
+                  width={960}
+                  height={700}
+                  priority
+                />
+                <p className="font-sans text-gray-600">Initial Profile Flow:</p>
+                <Image
+                  className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  src="/initial_lofi2.png"
+                  alt="Gmail page"
+                  width={1460}
+                  height={1200}
+                  priority
+                />
+                <p className="font-sans text-gray-600">
+                  Initial Publishing Flow:
+                </p>
+                <Image
+                  className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  src="/initial_lofi3.png"
+                  alt="Spotify page"
+                  width={1460}
+                  height={1200}
+                  priority
+                />
+                <div className="flex flex-col items-center space-y-4">
+                  <p className="font-sans text-gray-600">
+                    The low-fidelity wireframe flows shown above reflect the
+                    primary aspects that the Warp team requested in a Community
+                    feature:
+                  </p>
+                  <ol className="font-sans text-gray-600 space-y-4">
+                    {" "}
+                    <li className="ml-8">- A new community page</li>
+                    <li className="ml-8">- Enhanced user profiles</li>
+                    <li className="ml-8">
+                      - Ability to publish a tool from the existing Warp Drive
+                    </li>
+                  </ol>
+                </div>
+                <p className="font-sans text-gray-600">
+                  We felt that these three features captured our intended impact
+                  of allowing users to connect with other users, share their
+                  created tools to the community, and download tools from others
+                  in the community.
+                </p>
+                <p className="font-sans text-gray-600">
+                  Websites, such as{" "}
+                  <span className="font-bold">
+                    GitHub, Figma, Pinterest, and Instagram
+                  </span>
+                  , were used in varying degrees as inspiration during feature
+                  ideation.
+                </p>
+                <div className="flex md:flex-row md:space-x-4 flex-col space-y-4 md:items-auto items-center">
+                  <Image
+                    className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert md:pt-6"
+                    src="/github.png"
+                    alt="CBS Sports App page"
+                    width={160}
+                    height={100}
+                    priority
+                  />
+                  <Image
+                    className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert md:pt-2"
+                    src="/figma.png"
+                    alt="Gmail page"
+                    width={280}
+                    height={100}
+                    priority
+                  />
+                </div>
+                <div className="flex flex-col items-center space-y-4">
+                  <p className="font-sans text-gray-600">
+                    After developing the initial low-fidelity wireframes, we
+                    received a round of{" "}
+                    <span className="font-bold">
+                      feedback from both peers and the client
+                    </span>{" "}
+                    themself, with key takeaways including:
+                  </p>
+                  <ol className="font-sans text-gray-600 space-y-4">
+                    {" "}
+                    <li className="ml-8">
+                      (Peer) - when publishing a tool, the user should be
+                      provided with{" "}
+                      <span className="font-bold">auto-generated tag</span>, so
+                      that they do not have to manually create all of their tags
+                      each time
+                    </li>
+                    <li className="ml-8">
+                      (Client) - the{" "}
+                      <span className="font-bold">same profile view</span>{" "}
+                      should be used for both a user's own profile (in Warp
+                      Drive) as well as when viewing another user's profile in
+                      the Community panel
+                    </li>
+                    <li className="ml-8">
+                      (Client) - there should exist options for a user to{" "}
+                      <span className="font-bold">
+                        install, uninstall, and rate a tool
+                      </span>{" "}
+                      when viewing a tool on the Community page
+                    </li>
+                    <li className="ml-8">
+                      (Client) - the community page should{" "}
+                      <span className="font-bold">
+                        open from a side, vertical panel
+                      </span>{" "}
+                      (as is done with Warp AI), rather than a top, horizontal
+                      panel
+                    </li>
+                  </ol>
+                </div>
+                <p className="font-sans text-gray-600">
+                  The{" "}
+                  <span className="font-bold">
+                    updated low-fidelity wireframes
+                  </span>{" "}
+                  incorporating these pieces of feedback are shown below:
+                </p>
+                <p className="font-sans text-gray-600">
+                  Updated Community Page:
+                </p>
+                <Image
+                  className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  src="/updated_lofi1.png"
+                  alt="CBS Sports App page"
+                  width={960}
+                  height={700}
+                  priority
+                />
+                <p className="font-sans text-gray-600">Updated Profile Flow:</p>
+                <Image
+                  className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  src="/updated_lofi2.png"
+                  alt="Gmail page"
+                  width={1460}
+                  height={1200}
+                  priority
+                />
+                <p className="font-sans text-gray-600">
+                  Updated Publishing Flow:
+                </p>
+                <Image
+                  className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  src="/updated_lofi3.png"
+                  alt="Spotify page"
+                  width={1460}
+                  height={1200}
+                  priority
+                />
               </div>
             </div>
           </div>
           <div className="bg-white">
             <div className="flex flex-col items-center">
-              <div className="flex flex-row justify-between w-screen pl-32 pr-32 pt-16 pb-8">
-                <h2 className="font-semibold text-3xl font-serif max-w-[35%] pl-16">
+              <div className="flex md:flex-row md:justify-between w-screen pl-32 pr-32 pt-16 pb-8 flex-col items-center space-y-8">
+                <h2 className="font-semibold text-3xl font-heading max-w-[35%] md:pl-16 pl-0">
                   Outcome
                 </h2>
               </div>
 
               <div className="flex flex-col items-center space-y-10 w-screen max-w-[60%] mb-[5%]">
                 <p className="font-sans text-gray-600">
-                  Leveraging the takeaways from a Competitive Analysis, I
-                  decided to create an aggregator themed around restaurants
-                  located around Brown University's campus. Specifically, the
-                  website allows users to filter the listed restaurants based on
-                  the available food options (i.e. vegan, vegetarian, or seafood
-                  options) and distance to campus, sort them in increasing order
-                  of average entree price, and favorite/unfavorite them so that
-                  they appear at the top/bottom. These tools are aimed at
-                  helping students more efficiently narrow down their next spot
-                  to eat, so that they can satisfy their various dietary and
-                  accessibility needs/desires. A reset button was also included
-                  on the website to allow users to clear out any set
-                  filters/sorting and view the full range of restaurants on the
-                  website.
+                  Using the low-fidelity wireframes and the company's existing
+                  style guide as reference, we first created our own{" "}
+                  <span className="font-bold">visual design style guide</span>{" "}
+                  (seen below) before moving onto the actual development of the
+                  high-fidelity Figma prototypes.
                 </p>
-
                 <Image
                   className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                  src="/restaurant1.png"
+                  src="/styleguide.png"
                   alt="Next.js Logo"
                   width={800}
                   height={600}
                   priority
                 />
+                <p className="font-sans text-gray-600">
+                  We believe that Warp decided to use black and white as the
+                  primary colors so that users would be able to easily and
+                  accurately read text, especially when programming for long
+                  periods of time. Though some existing color combinations (i.e.
+                  white text on a green button background) did not provide the
+                  best color contrast, we decided to maintain these color
+                  choices for the sake of consistency with the existing Warp
+                  product. Icons were also primarily taken from existing icons
+                  found in Warp today.
+                </p>
 
                 <p className="font-sans text-gray-600">
-                  The resulting restaurant aggregator is shown above and is
-                  deployed at{" "}
-                  <a
-                    className="text-blue-600 underline"
-                    href="http://development-pink.vercel.app/"
-                  >
-                    http://development-pink.vercel.app/
-                  </a>
+                  The{" "}
+                  <span className="font-bold">high-fidelity prototypes</span>{" "}
+                  developed from the low-fidelity wireframes are shown below
                 </p>
+                <p className="font-sans text-gray-600">Community Page:</p>
+                <a href="https://www.figma.com/file/RkZZCZZ8VvhttbmdmLYRHH/Iterative-Design-Flows?type=design&node-id=77-1420&mode=design&t=NZUUs7NofbOz0hUU-0">
+                  <Image
+                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                    src="/community_hifi.png"
+                    alt="Next.js Logo"
+                    width={800}
+                    height={600}
+                    priority
+                  />
+                </a>
+                <p className="font-sans text-gray-600">
+                  For the community page, we wanted to first ensure clear
+                  navigation to the page without making any significant changes
+                  to the homepage. To do this, we added a globe icon in the top
+                  right to signal to users that this is the place where they can
+                  interact with other Warp users and share tools. Upon opening
+                  the community page, we wanted to make this page as similar as
+                  possible to other popular community pages, such as in Figma.
+                  Users can see a list of tools that have been published from
+                  the users that they follow as well as explore general tools.
+                  They also have the ability to search for specific tools that
+                  they need via a search bar and filter down categories of tools
+                  that they would like to find.
+                </p>
+                <p className="font-sans text-gray-600">Profile Flow:</p>
+                <a href="https://www.figma.com/file/RkZZCZZ8VvhttbmdmLYRHH/Iterative-Design-Flows?type=design&node-id=77-1420&mode=design&t=NZUUs7NofbOz0hUU-0">
+                  <Image
+                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                    src="/profile_hifi.png"
+                    alt="Next.js Logo"
+                    width={800}
+                    height={600}
+                    priority
+                  />
+                </a>
+                <p className="font-sans text-gray-600">
+                  For the profile flow, we wanted to convey the number of total
+                  tool downloads, number of total likes on tools, as well as the
+                  number of users that a user is following and how many users
+                  are following this user. We wanted to make the profile similar
+                  to many other social networks, such as Instagram or Facebook
+                  for ease of use. We also felt like the idea of a profile card
+                  with the option to edit the profile was something that would
+                  already be familiar to many users. We also wanted to make the
+                  user's own published tools be visible on their profile and
+                  give them the ability to sort and filter just like in the
+                  community page. The reason why we wanted to include this
+                  profile page on the left was because Warp's Personal tab was
+                  already located on this side so we wanted to make all personal
+                  elements on the same side of the interface.
+                </p>
+                <p className="font-sans text-gray-600">Publishing Flow:</p>
+                <a href="https://www.figma.com/file/RkZZCZZ8VvhttbmdmLYRHH/Iterative-Design-Flows?type=design&node-id=77-1420&mode=design&t=NZUUs7NofbOz0hUU-0">
+                  <Image
+                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                    src="/publish_hifi.png"
+                    alt="Next.js Logo"
+                    width={800}
+                    height={600}
+                    priority
+                  />
+                </a>
+                <p className="font-sans text-gray-600">
+                  Lastly, for the publishing flow, we added a "Publish" option
+                  to the existing dropdown menu for each tool, which would open
+                  a new modal for the user to edit and eventually publish.
+                  Throughout this flow, we used the same colors and modal design
+                  as in previous modals (i.e. when creating a tool), and we
+                  added a confirmation page at the end of the process so that
+                  the user could receive immediate feedback and assurance about
+                  their action.
+                </p>
+                <div className="flex flex-col items-center space-y-4">
+                  <p className="font-sans text-gray-600">
+                    We had one final meeting with the Warp founders to walk
+                    through the high-fidelity prototypes and received positive
+                    feedback overall. The key pieces of advice on the final
+                    prototypes included:
+                  </p>
+                  <ol className="font-sans text-gray-600 space-y-4 mt-8">
+                    {" "}
+                    <li className="ml-8">
+                      1. Cut down on the unnecessary whitespace within each
+                      community widget to allow for more tools to be displayed
+                      on one screen
+                    </li>
+                    <li className="ml-8">
+                      2. Because the community tab is a secondary experience and
+                      not the main focus of Warp, the profile page could be
+                      moved into the community tab to streamline user flow
+                    </li>
+                  </ol>
+                </div>
               </div>
             </div>
           </div>
           <div className="bg-gray-100">
-            <div className="flex flex-row justify-between w-screen pl-32 pr-32 pt-16 pb-16">
-              <h2 className="font-semibold text-3xl font-serif max-w-[35%] pl-16">
+            <div className="flex md:flex-row md:justify-between w-screen pl-32 pr-32 pt-16 pb-16 flex-col md:items-auto md:space-y-0 items-center space-y-8">
+              <h2 className="font-semibold text-3xl font-heading max-w-[35%] md:pl-16 pl-0">
                 Learnings
               </h2>
-              <ol className="font-sans text-gray-600 max-w-[65%] space-y-8">
+              <ol className="font-sans text-gray-600 md:max-w-[65%] max-w-[80%] space-y-8">
                 <li>
-                  1. By first conducting a competitive analysis looking at how
-                  existing websites have designed their aggregators, I was able
-                  to evaluate the subtle, and often overlooked, differences
-                  between them before deciding on aspects of each I wanted to
-                  incorporate into my own implementation.
+                  1. Having consistent use of whitespace is important in
+                  maintaining a professional and cohesive design and can
+                  increase the amount of information that can be conveyed at a
+                  time
                 </li>
                 <li>
-                  2. I was surprised to find that taking this initial step to
-                  plan out what features I wanted to include in my design
-                  significantly expedited the development process and made the
-                  final product much better.
+                  2. Community features hold different significance levels
+                  within different types of websites/programs and should be
+                  organized accordingly
                 </li>
                 <li>
-                  3. Even though the pre-development stages of this project
-                  didn't necessarily involve drawing up lo-fi wireframes or
-                  hi-fi prototypes, having some form of visualization pertaining
-                  to different aspects of the aggregator was incredibly helpful.
-                </li>
-                <li>
-                  4. In particularly saturated industries with heavy online
-                  dependence, conducting a Competitive Analysis can serve as a
-                  crucial differentiating factor for companies when developing
-                  their various features.
+                  3. Intentionally varying the designs in initial sketches is
+                  critical for finding the optimal set of features and designs
+                  to be included in initial wireframes/prototypes
                 </li>
               </ol>
             </div>
@@ -232,146 +463,4 @@ export default function Project2() {
       </div>
     </main>
   );
-  {
-    /* <main className="flex min-h-screen flex-col space-y-40 m-0 bg-white">
-      <div className="flex min-h-screen flex-col flex-wrap items-center space-y-20 p-0 mb-[10%]">
-        <Navbar></Navbar>
-        <div className="flex flex-col space-y-10 mb-[20%]">
-          <h1 className="font-semibold text-left text-5xl max-w-xl font-serif pl-16 pt-16">
-            Warp Community
-          </h1>
-          <Image
-            className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert pl-32 pt-8 pr-16"
-            src="/warp1.png"
-            alt="Next.js Logo"
-            width={1400}
-            height={1400}
-            priority
-          />
-          <div className="bg-purple-900">
-            <div className="flex flex-row justify-evenly space-x-16 w-screen text-white pt-8 pb-8">
-              <div className="flex flex-col space-y-4 text-white">
-                <h2 className="font-semibold text-3xl font-serif">Role</h2>
-                <p className="font-sans text-white">User interface designer</p>
-              </div>
-              <div className="flex flex-col space-y-4 text-white">
-                <h2 className="font-semibold text-3xl font-serif">Team</h2>
-                <p className="font-sans text-white">Alexander Zhou</p>
-                <p className="font-sans text-white">Angela Li</p>
-                <p className="font-sans text-white">Patrick Li</p>
-                <p className="font-sans text-white">Jennifer Chen</p>
-              </div>
-              <div className="flex flex-col space-y-4 text-white">
-                <h2 className="font-semibold text-3xl font-serif">Timeline</h2>
-                <p className="font-sans text-white">April 2024 (3 weeks)</p>
-              </div>
-              <div className="flex flex-col space-y-4">
-                <h2 className="font-semibold text-3xl font-serif">
-                  Tools Used
-                </h2>
-                <p className="font-sans text-white">Figma</p>
-                <p className="font-sans text-white">Case Study</p>
-              </div>
-            </div>
-          </div>
-          <div className="space-y-20 ml-[15%] mb-[20%] max-w-[70%]">
-            <h2 className="font-semibold text-3xl font-serif">Context</h2>
-
-            <p className="font-sans text-gray-600">
-              This project was done as part of the UI/UX course at Brown, with
-              this project aiming to take a deeper dive into competitor analysis
-              and the development of dynamic and responsive websites using
-              React.js.
-            </p>
-            <h2 className="font-semibold text-3xl font-serif">Problem</h2>
-
-            <p className="font-sans text-gray-600">
-              In highly competitive industries, the usability and efficiency of
-              certain features on a company website can make vast differences on
-              user engagement, experience, and company profitability. These
-              seemingly small variations across interface features can build
-              into substantial swings that ultimately push companies with better
-              online user experiences towards having larger market shares.
-              Therefore, even when developing common features of a website, it
-              is important to analyze the pros and cons of existing websites
-              that have these features via a Competitive Analysis, synthesizing
-              the best aspects across them to build out something that maximizes
-              accessibility and usability. In this project, we specifically look
-              at websites that have aggregators, such as shopping carts,
-              equipped with a favoriting function.
-            </p>
-            <h2 className="font-semibold text-3xl font-serif">Research</h2>
-            <Image
-              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-              src="/next.svg"
-              alt="Next.js Logo"
-              width={360}
-              height={74}
-              priority
-            />
-            <p className="font-sans text-gray-600">
-              To inform which features our aggregator included in its design, a
-              Competitive Analysis was first conducted using three different
-              websites/apps and across six different factors. The websites used
-              were the CBS Sports App, Gmail, and Spotify, and the results of
-              the analysis can be seen above.
-            </p>
-            <h2 className="font-semibold text-3xl font-serif">Outcome</h2>
-            <Image
-              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-              src="/next.svg"
-              alt="Next.js Logo"
-              width={360}
-              height={74}
-              priority
-            />
-            <p className="font-sans text-gray-600">
-              Leveraging the takeaways from a Competitive Analysis, I decided to
-              create an aggregator themed around restaurants located around
-              Brown University's campus. Specifically, the website allows users
-              to filter the listed restaurants based on the available food
-              options (i.e. vegan, vegetarian, or seafood options) and distance
-              to campus, sort them in increasing order of average entree price,
-              and favorite/unfavorite them so that they appear at the
-              top/bottom. These tools are aimed at helping students more
-              efficiently narrow down their next spot to eat, so that they can
-              satisfy their various dietary and accessibility needs/desires. A
-              reset button was also included on the website to allow users to
-              clear out any set filters/sorting and view the full range of
-              restaurants on the website.
-            </p>
-            <p>
-              The resulting restaurant aggregator is shown above and is deployed
-              at{" "}
-              <a
-                className="text-blue-600 underline"
-                href="http://development-pink.vercel.app/"
-              >
-                http://development-pink.vercel.app/
-              </a>
-            </p>
-
-            <h2 className="font-semibold text-3xl font-serif">Learnings</h2>
-            <p className="font-sans text-gray-600">
-              By first conducting a competitive analysis looking at how existing
-              websites have designed their aggregators, I was able to evaluate
-              the subtle, and often overlooked, differences between them before
-              deciding on aspects of each I wanted to incorporate into my own
-              implementation. I was surprised to find that taking this initial
-              step to plan out what features I wanted to include in my design
-              significantly expedited the development process and made the final
-              product much better. Even though the pre-development stages of
-              this project didn't necessarily involve drawing up lo-fi
-              wireframes or hi-fi prototypes, having some form of visualization
-              pertaining to different aspects of the aggregator was incredibly
-              helpful. Ultimately, in particularly saturated industries with
-              heavy online dependence, conducting a Competitive Analysis can
-              serve as a crucial differentiating factor for companies when
-              developing their various features.
-            </p>
-          </div>
-        </div>
-      </div>
-    </main> */
-  }
 }

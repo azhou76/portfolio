@@ -50,11 +50,13 @@ export default function About() {
             // id="delay3"
             className="fade-in text-left text-xl max-w-xl"
           >
-            This past summer, I was a machine learning intern at UC San Diego's
-            Armor Lab through the National Science Foundation. I was able to
-            learn first-hand how modern deep learning networks are being applied
-            to a variety of fields, including structural engineering and
-            structural health monitoring.
+            I am the current General Manager of The Brown Daily Herald, the
+            largest and oldest student publication at Brown. This past summer, I
+            was also a machine learning intern at UC San Diego's Armor Lab
+            through the National Science Foundation. I was able to learn
+            first-hand how modern deep learning networks are being applied to a
+            variety of fields, including structural engineering and structural
+            health monitoring.
           </h2>
           <Image
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"

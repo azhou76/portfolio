@@ -12,14 +12,16 @@ export default function Project1() {
             Restaurant Aggregator
           </h1>
           <div className="flex flex-col items-center">
-            <Image
-              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert pt-8 pb-8"
-              src="/restaurant1.png"
-              alt="Next.js Logo"
-              width={1100}
-              height={1100}
-              priority
-            />
+            <a href="http://development-pink.vercel.app/">
+              <Image
+                className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert pt-8 pb-8"
+                src="/restaurant1.png"
+                alt="Next.js Logo"
+                width={1100}
+                height={1100}
+                priority
+              />
+            </a>
           </div>
           <div className="bg-green-700">
             <div className="flex md:flex-row md:justify-evenly md:space-x-16 w-screen text-white pt-8 pb-8 flex-col md:pl-0 pl-[36%]">
@@ -114,14 +116,6 @@ export default function Project1() {
                 <div className="flex md:flex-row md:space-x-4 flex-col space-y-4">
                   <Image
                     className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert md:pt-6"
-                    src="/spotify_logo.png"
-                    alt="Spotify page"
-                    width={160}
-                    height={100}
-                    priority
-                  />
-                  <Image
-                    className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert md:pt-2"
                     src="/cbssports.png"
                     alt="CBS Sports App page"
                     width={160}
@@ -132,6 +126,14 @@ export default function Project1() {
                     className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert md:pt-2"
                     src="/gmail3.png"
                     alt="Gmail page"
+                    width={160}
+                    height={100}
+                    priority
+                  />
+                  <Image
+                    className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert md:pt-2"
+                    src="/spotify_logo.png"
+                    alt="Spotify page"
                     width={160}
                     height={100}
                     priority

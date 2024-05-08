@@ -34,12 +34,11 @@ export default function Home() {
       className="flex min-h-screen flex-col items-center justify-center p-10 pb-0 m-0 transition duration-500 bg-white"
     >
       <Navbar></Navbar>
-      {/* have work page as a scrollable on homepage */}
+      {/* Potentially section into internships/research (Nike, Rapsodo, UCSD, DrPal) and then course/indiv projects (Warp Community, DL Siamese nets, Search engine, cs33 DB, cs32 book proj?, H@B star tracker, DS proj, Infectious diseases paper)*/}
       {/* Images curved corners */}
       <Hero></Hero>
 
       <Work></Work>
-      {/* <Footer></Footer> */}
     </main>
   );
 }
