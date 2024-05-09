@@ -13,7 +13,7 @@ export default function Project2() {
           </h1>
           <div className="flex flex-col items-center">
             <Image
-              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert pt-8 pb-8"
+              className="relative pt-8 pb-8"
               src="/warp.png"
               alt="Next.js Logo"
               width={1100}
@@ -114,7 +114,7 @@ export default function Project2() {
 
                 <p className="font-sans text-gray-600">Example Sketch:</p>
                 <Image
-                  className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  className=""
                   src="/sketch1.png"
                   alt="CBS Sports App page"
                   width={460}
@@ -139,7 +139,7 @@ export default function Project2() {
                   Initial Community Page:
                 </p>
                 <Image
-                  className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  className=""
                   src="/initial_lofi1.png"
                   alt="CBS Sports App page"
                   width={960}
@@ -148,7 +148,7 @@ export default function Project2() {
                 />
                 <p className="font-sans text-gray-600">Initial Profile Flow:</p>
                 <Image
-                  className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  className=""
                   src="/initial_lofi2.png"
                   alt="Gmail page"
                   width={1460}
@@ -159,7 +159,7 @@ export default function Project2() {
                   Initial Publishing Flow:
                 </p>
                 <Image
-                  className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  className=""
                   src="/initial_lofi3.png"
                   alt="Spotify page"
                   width={1460}
@@ -197,7 +197,7 @@ export default function Project2() {
                 </p>
                 <div className="flex md:flex-row md:space-x-4 flex-col space-y-4 md:items-auto items-center">
                   <Image
-                    className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert md:pt-6"
+                    className="md:pt-6"
                     src="/github.png"
                     alt="CBS Sports App page"
                     width={160}
@@ -205,7 +205,7 @@ export default function Project2() {
                     priority
                   />
                   <Image
-                    className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert md:pt-2"
+                    className="md:pt-2"
                     src="/figma.png"
                     alt="Gmail page"
                     width={280}
@@ -266,7 +266,7 @@ export default function Project2() {
                   Updated Community Page:
                 </p>
                 <Image
-                  className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  className=""
                   src="/updated_lofi1.png"
                   alt="CBS Sports App page"
                   width={960}
@@ -275,7 +275,7 @@ export default function Project2() {
                 />
                 <p className="font-sans text-gray-600">Updated Profile Flow:</p>
                 <Image
-                  className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  className=""
                   src="/updated_lofi2.png"
                   alt="Gmail page"
                   width={1460}
@@ -286,7 +286,7 @@ export default function Project2() {
                   Updated Publishing Flow:
                 </p>
                 <Image
-                  className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  className=""
                   src="/updated_lofi3.png"
                   alt="Spotify page"
                   width={1460}
@@ -313,7 +313,7 @@ export default function Project2() {
                   high-fidelity Figma prototypes.
                 </p>
                 <Image
-                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  className="relative"
                   src="/styleguide.png"
                   alt="Next.js Logo"
                   width={800}
@@ -340,7 +340,7 @@ export default function Project2() {
                 <p className="font-sans text-gray-600">Community Page:</p>
                 <a href="https://www.figma.com/file/RkZZCZZ8VvhttbmdmLYRHH/Iterative-Design-Flows?type=design&node-id=77-1420&mode=design&t=NZUUs7NofbOz0hUU-0">
                   <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                    className="relative"
                     src="/community_hifi.png"
                     alt="Next.js Logo"
                     width={800}
@@ -367,7 +367,7 @@ export default function Project2() {
                 <p className="font-sans text-gray-600">Profile Flow:</p>
                 <a href="https://www.figma.com/file/RkZZCZZ8VvhttbmdmLYRHH/Iterative-Design-Flows?type=design&node-id=77-1420&mode=design&t=NZUUs7NofbOz0hUU-0">
                   <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                    className="relative"
                     src="/profile_hifi.png"
                     alt="Next.js Logo"
                     width={800}
@@ -395,7 +395,7 @@ export default function Project2() {
                 <p className="font-sans text-gray-600">Publishing Flow:</p>
                 <a href="https://www.figma.com/file/RkZZCZZ8VvhttbmdmLYRHH/Iterative-Design-Flows?type=design&node-id=77-1420&mode=design&t=NZUUs7NofbOz0hUU-0">
                   <Image
-                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                    className="relative"
                     src="/publish_hifi.png"
                     alt="Next.js Logo"
                     width={800}

@@ -15,12 +15,8 @@ export default function Hero() {
         setTimeout(() => {
           if (textContainer) {
             textContainer.innerText += word;
-            // textContainer.innerText += " ";
-            // if (index === words.length - 1) {
-            //   textContainer.classList.remove("hidden");
-            // }
           }
-        }, 800 + index * 300); // Adjust the delay (in milliseconds) between words
+        }, 800 + index * 300); // delay (in ms) between words
       });
     }
   }, []);
@@ -33,7 +29,7 @@ export default function Hero() {
     <div className="flex flex-col items-center justify-center space-y-10 h-screen md:pt-0 pt-64">
       <div className="flex md:flex-row flex-col-reverse items-center md:space-x-20 space-x-10">
         <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert rounded-lg md:mt-0 mt-16"
+          className="relative rounded-lg md:mt-0 mt-16"
           src="/Solo1.png"
           alt="Next.js Logo"
           width={300}
@@ -70,7 +66,7 @@ export default function Hero() {
               className="group rounded-lg border border-transparent transition-colors hover:border-gray-300 hover:bg-gray-200 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/3"
             >
               <Image
-                className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert rounded-lg"
+                className="relative rounded-lg"
                 src="/linkedin.png"
                 alt="Next.js Logo"
                 width={40}
@@ -84,7 +80,7 @@ export default function Hero() {
               className="group rounded-lg border border-transparent transition-colors hover:border-gray-300 hover:bg-gray-200 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/3"
             >
               <Image
-                className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert rounded-lg"
+                className="relative rounded-lg"
                 src="/github.png"
                 alt="Next.js Logo"
                 width={40}
@@ -98,7 +94,7 @@ export default function Hero() {
               className="group rounded-lg border border-transparent transition-colors hover:border-gray-300 hover:bg-gray-200 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/3"
             >
               <Image
-                className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert rounded-lg"
+                className="relative rounded-lg"
                 src="/gmail.png"
                 alt="Next.js Logo"
                 width={40}
@@ -113,7 +109,7 @@ export default function Hero() {
       <Link href="#work">
         <button
           type="button"
-          className="animate-bounce md:mb-0 mb-64 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+          className="animate-bounce md:mb-0 mb-64 text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-full text-sm p-2.5 text-center inline-flex items-center me-2"
         >
           <svg
             className="w-4 h-4"

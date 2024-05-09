@@ -13,7 +13,7 @@ export default function Project3() {
           </h1>
           <div className="flex flex-col items-center">
             <Image
-              className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert pt-8 pb-8"
+              className="relative pt-8 pb-8"
               src="/rapsodo1.png"
               alt="Next.js Logo"
               width={1100}
@@ -134,7 +134,7 @@ export default function Project3() {
                 </p>
                 <div className="flex md:flex-row md:space-x-4 flex-col space-y-4">
                   <Image
-                    className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert md:pt-6"
+                    className="md:pt-6"
                     src="/mongodb.png"
                     alt="Spotify page"
                     width={180}
@@ -142,7 +142,7 @@ export default function Project3() {
                     priority
                   />
                   <Image
-                    className="dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert md:pt-2"
+                    className="md:pt-2"
                     src="/plotly.png"
                     alt="CBS Sports App page"
                     width={160}
@@ -159,7 +159,7 @@ export default function Project3() {
                   guided learning.
                 </p>
                 <Image
-                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  className="relative"
                   src="/rapsodo3.png"
                   alt="Next.js Logo"
                   width={300}
@@ -202,7 +202,7 @@ export default function Project3() {
                 </p>
 
                 <Image
-                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  className="relative"
                   src="/rapsodo9.png"
                   alt="Next.js Logo"
                   width={800}
@@ -222,7 +222,7 @@ export default function Project3() {
                   respect to the pitch type thrown).
                 </p>
                 <Image
-                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  className="relative"
                   src="/rapsodo8.png"
                   alt="Next.js Logo"
                   width={800}
@@ -238,7 +238,7 @@ export default function Project3() {
                   below from 1/1/2022 through 8/1/2022).
                 </p>
                 <Image
-                  className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                  className="relative"
                   src="/rapsodo6.png"
                   alt="Next.js Logo"
                   width={800}
