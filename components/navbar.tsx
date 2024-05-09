@@ -88,6 +88,16 @@ export default function Navbar() {
                   </p>
                 </Link>
               </li>
+              <li>
+                <Link
+                  href="https://drive.google.com/file/d/1K6OQAcLxXqwIEE2CWAdsSduG2cqjRYEZ/view?usp=sharing"
+                  className="group"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <p className="text-gray-400 hover:text-black p-5">RESUME</p>
+                </Link>
+              </li>
             </ul>
           </div>
         )}
