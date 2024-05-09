@@ -15,15 +15,10 @@ export default function Hero() {
         setTimeout(() => {
           if (textContainer) {
             textContainer.innerText += word;
-            textContainer.innerText += " ";
-            // if ((index + 1) % 2 === 0) {
-            //   setTimeout(() => {
-            //     // textContainer.innerText = "";
-            //   }, 300); // Adjust the delay (in milliseconds) to clear the text after displaying every other word
+            // textContainer.innerText += " ";
+            // if (index === words.length - 1) {
+            //   textContainer.classList.remove("hidden");
             // }
-            if (index === words.length - 1) {
-              textContainer.classList.remove("hidden");
-            }
           }
         }, 800 + index * 300); // Adjust the delay (in milliseconds) between words
       });
@@ -56,7 +51,7 @@ export default function Hero() {
             I&apos;m a{" "}
             <span
               id="textContainer"
-              className="hidden text-blue-700 transition-colors duration-1000 font-sans"
+              className="text-blue-700 transition-colors duration-1000 font-sans"
             >
               Software; Engineer;, Data; Scientist;, and; Business; Manager
             </span>
