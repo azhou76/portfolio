@@ -110,7 +110,7 @@ export default function Project1() {
                   <span className="font-bold">
                     CBS Sports App, Gmail, and Spotify
                   </span>{" "}
-                  to evaluate the pros and cons of each website's existing
+                  to evaluate the pros and cons of each website&apos;s existing
                   aggregator (i.e. like/favorite feature)
                 </p>
                 <div className="flex md:flex-row md:space-x-4 flex-col space-y-4">
@@ -140,7 +140,7 @@ export default function Project1() {
                   />
                 </div>
                 <p className="font-sans text-gray-600">
-                  The websites' aggregators were evaluated across{" "}
+                  The websites&apos; aggregators were evaluated across{" "}
                   <span className="font-bold">six different factors</span> with
                   the competitive analysis chart shown below.
                 </p>
@@ -193,7 +193,7 @@ export default function Project1() {
                   Leveraging the takeaways from a Competitive Analysis, I
                   decided to create an aggregator themed around{" "}
                   <span className="font-bold">
-                    restaurants located around Brown University's campus
+                    restaurants located around Brown University&apos;s campus
                   </span>
                   . This aggregator is aimed at helping students more
                   efficiently narrow down their next spot to eat, so that they
@@ -259,7 +259,7 @@ export default function Project1() {
                 <li>
                   3. Responsive and{" "}
                   <span className="font-bold">accesible design</span> is just as
-                  important as any other aspect of a website's design
+                  important as any other aspect of a website&apos;s design
                 </li>
               </ol>
             </div>

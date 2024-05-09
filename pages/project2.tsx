@@ -234,9 +234,9 @@ export default function Project2() {
                     <li className="ml-8">
                       (Client) - the{" "}
                       <span className="font-bold">same profile view</span>{" "}
-                      should be used for both a user's own profile (in Warp
-                      Drive) as well as when viewing another user's profile in
-                      the Community panel
+                      should be used for both a user&apos;s own profile (in Warp
+                      Drive) as well as when viewing another user&apos;s profile
+                      in the Community panel
                     </li>
                     <li className="ml-8">
                       (Client) - there should exist options for a user to{" "}
@@ -306,8 +306,8 @@ export default function Project2() {
 
               <div className="flex flex-col items-center space-y-10 w-screen max-w-[60%] mb-[5%]">
                 <p className="font-sans text-gray-600">
-                  Using the low-fidelity wireframes and the company's existing
-                  style guide as reference, we first created our own{" "}
+                  Using the low-fidelity wireframes and the company&apos;s
+                  existing style guide as reference, we first created our own{" "}
                   <span className="font-bold">visual design style guide</span>{" "}
                   (seen below) before moving onto the actual development of the
                   high-fidelity Figma prototypes.
@@ -358,8 +358,8 @@ export default function Project2() {
                   <span className="font-bold">
                     as similar as possible to other popular community pages
                   </span>
-                  , such as Figma's. Users can see a list of tools that have
-                  been published from the users that they follow as well as
+                  , such as Figma&apos;s. Users can see a list of tools that
+                  have been published from the users that they follow as well as
                   explore general tools. They also have the ability to search
                   for specific tools that they need via a search bar and filter
                   down categories of tools that they would like to find.
@@ -384,12 +384,12 @@ export default function Project2() {
                   for ease of use. We also felt like the idea of a profile card
                   with the option to edit the profile was something that would
                   already be familiar to many users. We also wanted to make the
-                  user's own published tools be visible on their profile and
-                  give them the ability to sort and filter just like in the
+                  user&apos;s own published tools be visible on their profile
+                  and give them the ability to sort and filter just like in the
                   community page. We included the{" "}
                   <span className="font-bold">profile page on the left</span>{" "}
-                  because Warp's Personal tab was already located on this side
-                  and we believed it would be more intuitive to have all
+                  because Warp&apos;s Personal tab was already located on this
+                  side and we believed it would be more intuitive to have all
                   personal elements on the same side of the interface.
                 </p>
                 <p className="font-sans text-gray-600">Publishing Flow:</p>
@@ -404,10 +404,10 @@ export default function Project2() {
                   />
                 </a>
                 <p className="font-sans text-gray-600">
-                  Lastly, for the publishing flow, we added a "Publish" option
-                  to the existing dropdown menu for each tool, which would open
-                  a new modal for the user to edit and eventually publish.
-                  Throughout this flow, we used the{" "}
+                  Lastly, for the publishing flow, we added a
+                  &quot;Publish&quot; option to the existing dropdown menu for
+                  each tool, which would open a new modal for the user to edit
+                  and eventually publish. Throughout this flow, we used the{" "}
                   <span className="font-bold">
                     same colors and modal design
                   </span>{" "}

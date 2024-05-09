@@ -50,10 +50,10 @@ export default function Hero() {
             id="topSlideContainer"
             className="font-medium text-left text-5xl max-w-xl font-heading"
           >
-            Hi, I'm Alex :)
+            Hi, I&apos;m Alex :)
           </h2>
           <p className="bold text-left text-xl max-w-xl font-sans">
-            I'm a{" "}
+            I&apos;m a{" "}
             <span
               id="textContainer"
               className="hidden text-blue-700 transition-colors duration-1000 font-sans"
@@ -65,8 +65,8 @@ export default function Hero() {
             id="botSlideContainer"
             className="bold text-left text-xl max-w-xl font-sans"
           >
-            I'm a junior at Brown University studying CS, Applied Math, + Econ
-            who loves football and performing in classical orchestras as a
+            I&apos;m a junior at Brown University studying CS, Applied Math, +
+            Econ who loves football and performing in classical orchestras as a
             timpanist.
           </p>
           <div className="flex justify-left md:space-x-7 space-x-3">

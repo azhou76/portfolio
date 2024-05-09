@@ -83,7 +83,7 @@ export default function Project3() {
                   were being conducted{" "}
                   <span className="font-bold">everyday</span> on PRO 3.0
                   machines using different firmware versions, all of which
-                  needed to be analyzed against each other, the company's
+                  needed to be analyzed against each other, the company&apos;s
                   previous 2.0 machine, and competitor products
                 </li>
                 <li>
@@ -91,7 +91,7 @@ export default function Project3() {
                   <span className="font-bold">
                     set to launch by the end of the summer
                   </span>{" "}
-                  as Rapsodo's largest product launch to-date
+                  as Rapsodo&apos;s largest product launch to-date
                 </li>
                 <li>
                   3. The Product Development Team had a{" "}
@@ -129,7 +129,8 @@ export default function Project3() {
                   the dashboard development process was to look at pymongo
                   scripts written by previous interns/developers at the company
                   to develop an understanding of pymongo aggregation pipelines,
-                  including how to connect via the company's connection string.
+                  including how to connect via the company&apos;s connection
+                  string.
                 </p>
                 <div className="flex md:flex-row md:space-x-4 flex-col space-y-4">
                   <Image
@@ -189,7 +190,7 @@ export default function Project3() {
                 <p className="font-sans text-gray-600">
                   An optimized pymongo aggregation pipeline was created so that
                   on each run, the dashboard would query live product testing
-                  results directly from the company's MongoDB database. The
+                  results directly from the company&apos;s MongoDB database. The
                   dashboard (shown below) had filters for{" "}
                   <span className="font-bold">
                     date range, location, player/coach/user/machine ID, sport
@@ -214,7 +215,8 @@ export default function Project3() {
                   (where the machine produced numbers after reading a pitch but
                   had low confidence in the accuracy of the spin numbers),{" "}
                   <span className="font-bold">“bad trigger no data”</span>{" "}
-                  (where a pitch was thrown but the machine didn't read it), and{" "}
+                  (where a pitch was thrown but the machine didn&apos;t read
+                  it), and{" "}
                   <span className="font-bold">“bad acceleration z data”</span>{" "}
                   (where the vertical break directions did not align with
                   respect to the pitch type thrown).
@@ -251,7 +253,7 @@ export default function Project3() {
                   <li>
                     1. “Bad spin confidence data” had consistently been the{" "}
                     <span className="font-bold">largest source of error</span>{" "}
-                    on the company's previous 2.0 machine, but had been
+                    on the company&apos;s previous 2.0 machine, but had been
                     significantly{" "}
                     <span className="font-bold">
                       reduced in recent firmware updates
@@ -277,15 +279,15 @@ export default function Project3() {
                 <p className="font-sans text-gray-600">
                   Following the conclusion of my internship, the data dashboard
                   was handed off to the Product Development Team, and the
-                  dashboard's{" "}
+                  dashboard&apos;s{" "}
                   <span className="font-bold">
                     insights directly guided final firmware updates
                   </span>{" "}
-                  leading up to the product's launch at the end of that summer.
-                  The dashboard is still something that the{" "}
+                  leading up to the product&apos;s launch at the end of that
+                  summer. The dashboard is still something that the{" "}
                   <span className="font-bold">team uses today</span> when
                   analyzing new firmware updates, and the product has become the
-                  company's{" "}
+                  company&apos;s{" "}
                   <span className="font-bold">
                     most successful product to date
                   </span>
@@ -323,8 +325,8 @@ export default function Project3() {
                     project
                   </span>{" "}
                   and thoroughly commenting all features/code are critical for
-                  maximizing a project's usability as well as for ensuring a
-                  smooth handoff process
+                  maximizing a project&apos;s usability as well as for ensuring
+                  a smooth handoff process
                 </li>
               </ol>
             </div>
