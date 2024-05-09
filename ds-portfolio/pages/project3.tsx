@@ -60,10 +60,14 @@ export default function Project3() {
               </h2>
 
               <p className="font-sans text-gray-600 md:max-w-[65%] max-w-[80%]">
-                Develop a data dashboard to enable the Rapsodo Product
-                Development Team to easily visualize the breakdowns of machine
-                errors produced by the PRO 3.0 during product testing and apply
-                findings to improve machine accuracy
+                Develop a <span className="font-bold">data dashboard</span> to
+                enable the Rapsodo Product Development Team to easily{" "}
+                <span className="font-bold">
+                  visualize the breakdowns of machine errors
+                </span>{" "}
+                produced by the <span className="font-bold">PRO 3.0</span>{" "}
+                during product testing and apply findings to improve machine
+                accuracy
               </p>
             </div>
           </div>
@@ -74,25 +78,37 @@ export default function Project3() {
               </h2>
               <ol className="font-sans text-gray-600 md:max-w-[65%] max-w-[80%] space-y-8">
                 <li>
-                  1. Thousands of product tests were being conducted everyday on
-                  PRO 3.0 machines using different firmware versions, all of
-                  which needed to be analyzed against each other, the company's
+                  1.{" "}
+                  <span className="font-bold">Thousands of product tests</span>{" "}
+                  were being conducted{" "}
+                  <span className="font-bold">everyday</span> on PRO 3.0
+                  machines using different firmware versions, all of which
+                  needed to be analyzed against each other, the company's
                   previous 2.0 machine, and competitor products
                 </li>
                 <li>
-                  2. The PRO 3.0 was set to launch by the end of the summer as
-                  Rapsodo's largest product launch to-date
+                  2. The PRO 3.0 was{" "}
+                  <span className="font-bold">
+                    set to launch by the end of the summer
+                  </span>{" "}
+                  as Rapsodo's largest product launch to-date
                 </li>
                 <li>
-                  3. The Product Development Team had a limited programming
-                  background and required an easy-to-use dashboard that could
-                  adjust to new incoming data
+                  3. The Product Development Team had a{" "}
+                  <span className="font-bold">
+                    limited programming background
+                  </span>{" "}
+                  and required an easy-to-use dashboard that could adjust to new
+                  incoming data
                 </li>
                 <li>
-                  4. Baseball domain knowledge was required in order to
-                  accurately set thresholds on the dashboard and account for
-                  different pitch types, spin and velocity ranges, and machine
-                  error types
+                  4. Baseball{" "}
+                  <span className="font-bold">
+                    domain knowledge was required
+                  </span>{" "}
+                  in order to accurately set thresholds on the dashboard and
+                  account for different pitch types, spin and velocity ranges,
+                  and machine error types
                 </li>
               </ol>
             </div>
@@ -107,13 +123,13 @@ export default function Project3() {
 
               <div className="flex flex-col items-center space-y-10 w-screen max-w-[60%] mb-[5%]">
                 <p className="font-sans text-gray-600">
-                  All product testing data was directly uploaded into a MongoDB
-                  database. Having never used MongoDB prior to the internship,
-                  the first step in the dashboard development process was to
-                  look at pymongo scripts written by previous interns/developers
-                  at the company to develop an understanding of pymongo
-                  aggregation pipelines, including how to connect via the
-                  company's connection string.
+                  All product testing data was directly uploaded into a{" "}
+                  <span className="font-bold">MongoDB database</span>. Having
+                  never used MongoDB prior to the internship, the first step in
+                  the dashboard development process was to look at pymongo
+                  scripts written by previous interns/developers at the company
+                  to develop an understanding of pymongo aggregation pipelines,
+                  including how to connect via the company's connection string.
                 </p>
                 <div className="flex md:flex-row md:space-x-4 flex-col space-y-4">
                   <Image
@@ -135,10 +151,11 @@ export default function Project3() {
                 </div>
                 <p className="font-sans text-gray-600">
                   Coming from a Python background with limited full stack
-                  experience at the time, my supervisor proposed looking into
-                  Plotly as a library for building out the actual dashboard and
-                  visualizations. Online documentation and examples of other
-                  kinds of data dashboards guided learning.
+                  experience at the time, my supervisor proposed looking into{" "}
+                  <span className="font-bold">Plotly</span> as a library for
+                  building out the actual dashboard and visualizations. Online
+                  documentation and examples of other kinds of data dashboards
+                  guided learning.
                 </p>
                 <Image
                   className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
@@ -150,10 +167,12 @@ export default function Project3() {
                 />
 
                 <p className="font-sans text-gray-600">
-                  Finally, having come from a limited baseball background,
-                  plenty of meetings were held with the rest of the Product
-                  Development Team to gather domain knowledge for determining
-                  reasonable filter and error thresholds.
+                  Finally, having little baseball background, plenty of meetings
+                  were held with the rest of the Product Development Team to
+                  gather <span className="font-bold">domain knowledge</span> for
+                  determining reasonable{" "}
+                  <span className="font-bold">filter and error thresholds</span>
+                  .
                 </p>
               </div>
             </div>
@@ -171,10 +190,14 @@ export default function Project3() {
                   An optimized pymongo aggregation pipeline was created so that
                   on each run, the dashboard would query live product testing
                   results directly from the company's MongoDB database. The
-                  dashboard (shown below) had filters for date range, location,
-                  player/coach/user/machine ID, sport (baseball vs. softball),
-                  machine version (PRO 3.0 vs. previous 2.0 machine), pitch
-                  type, and pitch locations (relative to the strike zone).
+                  dashboard (shown below) had filters for{" "}
+                  <span className="font-bold">
+                    date range, location, player/coach/user/machine ID, sport
+                    (baseball vs. softball), machine version (PRO 3.0 vs.
+                    previous 2.0 machine), pitch type, and pitch locations
+                    (relative to the strike zone)
+                  </span>
+                  .
                 </p>
 
                 <Image
@@ -186,13 +209,15 @@ export default function Project3() {
                   priority
                 />
                 <p className="font-sans text-gray-600">
-                  Errors were categorized into “bad spin confidence data” (where
-                  the machine produced numbers after reading a pitch but had low
-                  confidence in the accuracy of the spin numbers), “bad trigger
-                  no data” (where a pitch was thrown but the machine didn't read
-                  it), and “bad acceleration z data” (where the vertical break
-                  directions did not align with respect to the pitch type
-                  thrown).
+                  Errors were categorized into{" "}
+                  <span className="font-bold">“bad spin confidence data”</span>{" "}
+                  (where the machine produced numbers after reading a pitch but
+                  had low confidence in the accuracy of the spin numbers),{" "}
+                  <span className="font-bold">“bad trigger no data”</span>{" "}
+                  (where a pitch was thrown but the machine didn't read it), and{" "}
+                  <span className="font-bold">“bad acceleration z data”</span>{" "}
+                  (where the vertical break directions did not align with
+                  respect to the pitch type thrown).
                 </p>
                 <Image
                   className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
@@ -206,8 +231,9 @@ export default function Project3() {
                 <p className="font-sans text-gray-600">
                   After filters were chosen, the error proportions would be
                   displayed in an overall pie chart (shown above) as well as in
-                  line graphs displaying trends over time (shown below from
-                  1/1/2022 through 8/1/2022).
+                  line graphs displaying{" "}
+                  <span className="font-bold">trends over time</span> (shown
+                  below from 1/1/2022 through 8/1/2022).
                 </p>
                 <Image
                   className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
@@ -223,30 +249,48 @@ export default function Project3() {
                 </p>
                 <ol className="font-sans text-gray-600 md:max-w-[65%] max-w-[80%] space-y-8">
                   <li>
-                    1. “Bad spin confidence data” had consistently been the
-                    largest source of error on the company's previous 2.0
-                    machine, but had been significantly reduced in recent
-                    firmware updates (21.7% to 6.07%)
+                    1. “Bad spin confidence data” had consistently been the{" "}
+                    <span className="font-bold">largest source of error</span>{" "}
+                    on the company's previous 2.0 machine, but had been
+                    significantly{" "}
+                    <span className="font-bold">
+                      reduced in recent firmware updates
+                    </span>{" "}
+                    (21.7% to 6.07%)
                   </li>
                   <li>
-                    2. Consequently, the percentage of good data had increased
-                    from 65.5% to 84.4% from the 2.0 machine to the PRO 3.0
+                    2. Consequently, the percentage of{" "}
+                    <span className="font-bold">good data had increased</span>{" "}
+                    from 65.5% to 84.4% from the{" "}
+                    <span className="font-bold">
+                      2.0 machine to the PRO 3.0
+                    </span>
                   </li>
                   <li>
-                    3.“Bad trigger no data” had risen in recent firmware updates
+                    3. “Bad trigger no data” had{" "}
+                    <span className="font-bold">
+                      risen in recent firmware updates
+                    </span>{" "}
                     but by a small percentage
                   </li>
                 </ol>
                 <p className="font-sans text-gray-600">
                   Following the conclusion of my internship, the data dashboard
                   was handed off to the Product Development Team, and the
-                  dashboard's insights directly guided final firmware updates
+                  dashboard's{" "}
+                  <span className="font-bold">
+                    insights directly guided final firmware updates
+                  </span>{" "}
                   leading up to the product's launch at the end of that summer.
-                  The dashboard is still something that the team uses today when
+                  The dashboard is still something that the{" "}
+                  <span className="font-bold">team uses today</span> when
                   analyzing new firmware updates, and the product has become the
-                  company's most successful product to date, with all 30 MLB
-                  teams heavily using it as part of their player development
-                  programs.
+                  company's{" "}
+                  <span className="font-bold">
+                    most successful product to date
+                  </span>
+                  , with <span className="font-bold">all 30 MLB teams</span>{" "}
+                  heavily using it as part of their player development programs.
                 </p>
               </div>
             </div>
@@ -258,20 +302,29 @@ export default function Project3() {
               </h2>
               <ol className="font-sans text-gray-600 md:max-w-[65%] max-w-[80%] space-y-8">
                 <li>
-                  1. Consulting domain experts is essential when building out
-                  data analytics tools, as these insights improve both the
-                  accuracy and usability of any dashboards developed
+                  1. Consulting{" "}
+                  <span className="font-bold">domain experts</span> is essential
+                  when building out data analytics tools, as these insights
+                  improve both the accuracy and usability of any dashboards
+                  developed
                 </li>
                 <li>
-                  2. Building out error/sanity checks and structured test suites
-                  throughout the development process is critical for narrowing
-                  down bugs and allowing for easy adaptation/change
+                  2. Building out error/sanity checks and{" "}
+                  <span className="font-bold">
+                    structured test suites throughout the development process
+                  </span>{" "}
+                  is critical for narrowing down bugs and allowing for easy
+                  adaptation/change
                 </li>
                 <li>
-                  3. Holding conversations with the end stakeholders throughout
-                  the project and thoroughly commenting all features/code are
-                  critical for maximizing a project's usability as well as for
-                  ensuring a smooth handoff process
+                  3. Holding{" "}
+                  <span className="font-bold">
+                    conversations with the end stakeholders throughout the
+                    project
+                  </span>{" "}
+                  and thoroughly commenting all features/code are critical for
+                  maximizing a project's usability as well as for ensuring a
+                  smooth handoff process
                 </li>
               </ol>
             </div>

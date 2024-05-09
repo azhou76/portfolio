@@ -31,7 +31,7 @@ export default function Home() {
   return (
     <main
       id="container"
-      className="flex min-h-screen flex-col items-center justify-center p-10 pb-0 m-0 transition duration-500 bg-white"
+      className="flex min-h-screen flex-col items-center justify-center p-10 pb-0 m-0 transition duration-500 bg-white md:space-y-0 space-y-64 overflow-y-auto"
     >
       <Navbar></Navbar>
       {/* Potentially section into internships/research (Nike, Rapsodo, UCSD, DrPal) and then course/indiv projects (Warp Community, DL Siamese nets, Search engine, cs33 DB, cs32 book proj?, H@B star tracker, DS proj, Infectious diseases paper)*/}

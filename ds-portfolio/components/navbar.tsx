@@ -41,7 +41,7 @@ export default function Navbar() {
           </Link>
 
           <Link
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
+            href="https://drive.google.com/file/d/1K6OQAcLxXqwIEE2CWAdsSduG2cqjRYEZ/view?usp=sharing"
             className="group"
             target="_blank"
             rel="noopener noreferrer"

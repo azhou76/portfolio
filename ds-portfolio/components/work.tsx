@@ -5,10 +5,10 @@ export default function Work() {
     // <main className="flex min-h-screen flex-col space-y-40 m-0">
     <div
       id="work"
-      className="flex min-h-screen flex-col justify-center items-center space-y-10 p-10 pt-16 mb-4 h-screen"
+      className="flex min-h-screen flex-col justify-center items-center space-y-10 p-10 md:pt-16 pt-64 mb-4 h-screen"
     >
-      <h1 className="text-white text-5xl mt-16 mb-4 font-heading font-medium">
-        PROJECTS
+      <h1 className="text-white text-5xl md:mt-16 mt-64 mb-4 font-heading font-medium">
+        WORK
       </h1>
       {/* Rounded corners on the skill boxes within each project */}
       {/* Different font for the project titles, not serif */}
@@ -17,10 +17,10 @@ export default function Work() {
       {/* Import Figma interactive photo into project descs and have pictures of websites able to click-through */}
       {/*  */}
       {/* <Navbar></Navbar> */}
-      <div className="flex md:flex-row flex-col items-center space-x-5">
+      <div className="flex md:flex-row flex-col items-center space-x-5 md:space-y-0 space-y-10">
         <a
           href="./project1"
-          className="group rounded-lg border border-black px-5 py-4 bg-green-200 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 hover:-translate-y-2"
+          className="group rounded-lg border border-black px-5 md:ml-0 ml-4 py-4 bg-green-200 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30 hover:-translate-y-2"
         >
           <div className="flex flex-col items-center">
             <Image

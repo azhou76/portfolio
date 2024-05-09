@@ -227,7 +227,7 @@ export default function Project2() {
                     <li className="ml-8">
                       (Peer) - when publishing a tool, the user should be
                       provided with{" "}
-                      <span className="font-bold">auto-generated tag</span>, so
+                      <span className="font-bold">auto-generated tags</span>, so
                       that they do not have to manually create all of their tags
                       each time
                     </li>
@@ -354,13 +354,15 @@ export default function Project2() {
                   to the homepage. To do this, we added a globe icon in the top
                   right to signal to users that this is the place where they can
                   interact with other Warp users and share tools. Upon opening
-                  the community page, we wanted to make this page as similar as
-                  possible to other popular community pages, such as in Figma.
-                  Users can see a list of tools that have been published from
-                  the users that they follow as well as explore general tools.
-                  They also have the ability to search for specific tools that
-                  they need via a search bar and filter down categories of tools
-                  that they would like to find.
+                  the community page, we wanted to make this page{" "}
+                  <span className="font-bold">
+                    as similar as possible to other popular community pages
+                  </span>
+                  , such as Figma's. Users can see a list of tools that have
+                  been published from the users that they follow as well as
+                  explore general tools. They also have the ability to search
+                  for specific tools that they need via a search bar and filter
+                  down categories of tools that they would like to find.
                 </p>
                 <p className="font-sans text-gray-600">Profile Flow:</p>
                 <a href="https://www.figma.com/file/RkZZCZZ8VvhttbmdmLYRHH/Iterative-Design-Flows?type=design&node-id=77-1420&mode=design&t=NZUUs7NofbOz0hUU-0">
@@ -384,10 +386,11 @@ export default function Project2() {
                   already be familiar to many users. We also wanted to make the
                   user's own published tools be visible on their profile and
                   give them the ability to sort and filter just like in the
-                  community page. The reason why we wanted to include this
-                  profile page on the left was because Warp's Personal tab was
-                  already located on this side so we wanted to make all personal
-                  elements on the same side of the interface.
+                  community page. We included the{" "}
+                  <span className="font-bold">profile page on the left</span>{" "}
+                  because Warp's Personal tab was already located on this side
+                  and we believed it would be more intuitive to have all
+                  personal elements on the same side of the interface.
                 </p>
                 <p className="font-sans text-gray-600">Publishing Flow:</p>
                 <a href="https://www.figma.com/file/RkZZCZZ8VvhttbmdmLYRHH/Iterative-Design-Flows?type=design&node-id=77-1420&mode=design&t=NZUUs7NofbOz0hUU-0">
@@ -404,7 +407,10 @@ export default function Project2() {
                   Lastly, for the publishing flow, we added a "Publish" option
                   to the existing dropdown menu for each tool, which would open
                   a new modal for the user to edit and eventually publish.
-                  Throughout this flow, we used the same colors and modal design
+                  Throughout this flow, we used the{" "}
+                  <span className="font-bold">
+                    same colors and modal design
+                  </span>{" "}
                   as in previous modals (i.e. when creating a tool), and we
                   added a confirmation page at the end of the process so that
                   the user could receive immediate feedback and assurance about
@@ -412,21 +418,28 @@ export default function Project2() {
                 </p>
                 <div className="flex flex-col items-center space-y-4">
                   <p className="font-sans text-gray-600">
-                    We had one final meeting with the Warp founders to walk
-                    through the high-fidelity prototypes and received positive
-                    feedback overall. The key pieces of advice on the final
-                    prototypes included:
+                    We had one{" "}
+                    <span className="font-bold">
+                      final meeting with the Warp founders
+                    </span>{" "}
+                    to walk through the high-fidelity prototypes and received
+                    positive feedback overall. The key pieces of advice on the
+                    final prototypes included:
                   </p>
                   <ol className="font-sans text-gray-600 space-y-4 mt-8">
                     {" "}
                     <li className="ml-8">
-                      1. Cut down on the unnecessary whitespace within each
-                      community widget to allow for more tools to be displayed
-                      on one screen
+                      1. Cut down on the{" "}
+                      <span className="font-bold">unnecessary whitespace</span>{" "}
+                      within each community widget to allow for more tools to be
+                      displayed on one screen
                     </li>
                     <li className="ml-8">
-                      2. Because the community tab is a secondary experience and
-                      not the main focus of Warp, the profile page could be
+                      2. Because the{" "}
+                      <span className="font-bold">
+                        community tab is a secondary experience
+                      </span>{" "}
+                      and not the main focus of Warp, the profile page could be
                       moved into the community tab to streamline user flow
                     </li>
                   </ol>
@@ -441,20 +454,31 @@ export default function Project2() {
               </h2>
               <ol className="font-sans text-gray-600 md:max-w-[65%] max-w-[80%] space-y-8">
                 <li>
-                  1. Having consistent use of whitespace is important in
-                  maintaining a professional and cohesive design and can
-                  increase the amount of information that can be conveyed at a
-                  time
+                  1. Having{" "}
+                  <span className="font-bold">
+                    consistent use of whitespace
+                  </span>{" "}
+                  is important in maintaining a professional and cohesive design
+                  and can increase the amount of information that can be
+                  conveyed at one time
                 </li>
                 <li>
-                  2. Community features hold different significance levels
+                  2. Community features hold{" "}
+                  <span className="font-bold">
+                    different significance levels
+                  </span>{" "}
                   within different types of websites/programs and should be
                   organized accordingly
                 </li>
                 <li>
-                  3. Intentionally varying the designs in initial sketches is
-                  critical for finding the optimal set of features and designs
-                  to be included in initial wireframes/prototypes
+                  3.{" "}
+                  <span className="font-bold">
+                    Intentionally varying the designs
+                  </span>{" "}
+                  in initial sketches is{" "}
+                  <span className="font-bold">critical</span> for finding the
+                  optimal set of features and designs to be included in initial
+                  wireframes/prototypes
                 </li>
               </ol>
             </div>
