@@ -245,7 +245,43 @@ export default function Project3() {
                   height={600}
                   priority
                 />
-
+                <p className="font-sans text-gray-600">
+                  The entire <span className="font-bold">tech stack</span> is
+                  displayed below. Specifically, the backend{" "}
+                  <span className="font-bold">
+                    parses the user-inputted filters
+                  </span>{" "}
+                  received from the frontend into a{" "}
+                  <span className="font-bold">
+                    pymongo aggregation pipeline
+                  </span>{" "}
+                  and applies it to the MongoDB database to{" "}
+                  <span className="font-bold">
+                    retrieve all matching pitches
+                  </span>
+                  . The backend then converts these retrieved data entries into
+                  a Pandas dataframe and{" "}
+                  <span className="font-bold">
+                    returns counts of each kind of data category
+                  </span>{" "}
+                  (good data, bad spin confidence data, bad trigger no data, and
+                  bad acceleration z data) to the{" "}
+                  <span className="font-bold">frontend</span>. Finally, the
+                  frontend{" "}
+                  <span className="font-bold">
+                    uses these data counts to display the previously described
+                    plots
+                  </span>
+                  .
+                </p>
+                <Image
+                  className="relative"
+                  src="/rapsodo10.png"
+                  alt="Next.js Logo"
+                  width={800}
+                  height={600}
+                  priority
+                />
                 <p className="font-sans text-gray-600">
                   From these initial analyses, key findings included:
                 </p>
@@ -308,7 +344,7 @@ export default function Project3() {
                   <span className="font-bold">domain experts</span> is essential
                   when building out data analytics tools, as these insights
                   improve both the accuracy and usability of any dashboards
-                  developed
+                  developed (i.e. learning what “bad data” even looks like)
                 </li>
                 <li>
                   2. Building out error/sanity checks and{" "}

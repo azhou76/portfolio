@@ -56,7 +56,7 @@ export default function Hero() {
             id="botSlideContainer"
             className="bold text-left text-xl max-w-xl font-sans"
           >
-            I&apos;m a junior at Brown University studying CS, Applied Math, +
+            I&apos;m a senior at Brown University studying CS, Applied Math, +
             Econ who loves football and performing in classical orchestras as a
             timpanist.
           </p>
