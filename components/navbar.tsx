@@ -90,7 +90,7 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  href="https://drive.google.com/file/d/1K6OQAcLxXqwIEE2CWAdsSduG2cqjRYEZ/view?usp=sharing"
+                  href="https://drive.google.com/file/d/11HVS09MknQ4L8cIRE819sWs1rKlbI17F/view?usp=sharing"
                   className="group"
                   target="_blank"
                   rel="noopener noreferrer"
